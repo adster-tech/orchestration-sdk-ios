@@ -9,7 +9,7 @@ s.platform     = :ios, "14.0"
 s.swift_version = "5.0"
 
 s.source            = {
-:git => 'https://github.com/adster-tech/orchestration-sdk-ios.git',
+:git => 'git@github.com:adster-tech/orchestration-sdk-ios.git',
 :tag => "#{s.version}" }
 
   s.vendored_frameworks = [
