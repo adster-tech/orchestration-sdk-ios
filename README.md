@@ -9,11 +9,12 @@ The AdSter SDK provides integration for multiple ad types, including Banner, Int
 
 Before requesting any ads, you need to initialize the SDK. This is a one-time setup step that should be done at the start of your application.
 
-📦 Installation via CocoaPods
+Installation via CocoaPods
+
 To integrate YourSDK into your Xcode project using CocoaPods, follow these steps:
 Open your project's Podfile and add:
  ```
- pod 'YourSDK'
+ pod 'Adster'
  ```
  
 Run the following command in the terminal:
