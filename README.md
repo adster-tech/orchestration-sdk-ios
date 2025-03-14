@@ -14,7 +14,7 @@ Installation via CocoaPods
 To integrate YourSDK into your Xcode project using CocoaPods, follow these steps:
 Open your project's Podfile and add:
  ```
- pod 'Adster'
+ pod 'Adster', '~> 1.0.2'
  ```
  
 Run the following command in the terminal:
