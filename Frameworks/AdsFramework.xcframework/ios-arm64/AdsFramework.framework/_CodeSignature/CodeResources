@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/DTBiOSSDK.framework/DTBiOSSDK</key>
 		<data>
-		3BNn/kRQpPUvp0/MyN6/1b/RKeI=
+		KIFG5UMkgBprAXn4l1oCAfBUiJU=
 		</data>
 		<key>Frameworks/DTBiOSSDK.framework/Info.plist</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Frameworks/FBAudienceNetwork.framework/FBAudienceNetwork</key>
 		<data>
-		QcSBUqZ8IjNso8xU/Ep2XUQuCpI=
+		0I3wADT6SGqeGZWs8OBwPViTKjg=
 		</data>
 		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
 		<data>
@@ -86,19 +86,19 @@
 		</data>
 		<key>Frameworks/RealmSwift.framework/Info.plist</key>
 		<data>
-		f92JSlB1F1i2szQyAAQ4NNW3K8k=
+		nZHtxEYuOm9YEtQ1B2VrGbjFo58=
 		</data>
 		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
 		<data>
-		75luAsbjwwaCFLmTpvNm1LjsVw0=
+		zSeIaJ+/IEMTvSDS3j9Owig3PUo=
 		</data>
 		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
-		b8J/JEies2XQ9bKh5KbQ/6wSza8=
+		wDtOT6uF3ZSZ4l8nanb5BTgDLS0=
 		</data>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<data>
-		3m5ZUSMKBGbRSKXbCD4bvkrf5js=
+		bq5R9mYEyYvyM26vazqIwix414s=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WHticm247y+pF/+M2zFbRCju+7Y=
+		BY2WnLUlJwqJmVlf6Uszg5NvThM=
 		</data>
 		<key>MetaNativeAdView.nib</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YAlD8kl0kF8D3y37hQNQ1deoGlI=
+		v2eSeevJ7NK48fKwZyI1jEhRkNE=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		D5F5L4dLwwEsJnEbJNAWhup0miA=
+		UIp4g4/wHywHaS5tA5VFtdcUIys=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		D5F5L4dLwwEsJnEbJNAWhup0miA=
+		UIp4g4/wHywHaS5tA5VFtdcUIys=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vSdMUERub2AYv/0kLe483nAeP04=
+		dscnygptYmgmfRS2wENT/1KiLJc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQVP08Y7iA9xOgEWEvuhUfvUtS50zmgkJjCkX1xgMSA=
+			mqepO3oakTmJp3cDKrv6t/A0Lt106b0EQR1EgbdLcnA=
 			</data>
 		</dict>
 		<key>Frameworks/DTBiOSSDK.framework/Info.plist</key>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LBQfdaM2OcuwqsAAdCnD30UFsJddV6AMfBKy0LX5amo=
+			jGzfVQahXIO+JsPTiU+GBQLYOXXk9IP7sLFFw/x+u/Q=
 			</data>
 		</dict>
 		<key>Frameworks/FBAudienceNetwork.framework/Info.plist</key>
@@ -299,28 +299,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MXhuPeAGXCdPH7x5O3DoTJDwg1vi90yml5REcXjdafY=
+			W8xQD7rJxal+hNBZUsIvEAPXA8tEB9kUoElfECuEH8U=
 			</data>
 		</dict>
 		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+Zll5KprcG28eRiHQGLmIynvZ/zNo7fQOWOShWptLQ=
+			GIFLH6UmSWl6Rvl8aR1KWfKesruhkHwDS6c9gNzCQ70=
 			</data>
 		</dict>
 		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Duzc72B45vh9wTUIOkv1I4zc68Jk2dQkO7VDYU+ke5o=
+			++Dgcb1vsi4VYDyWl/5ZiWapVkgbst0Ud/BeFKLhTVE=
 			</data>
 		</dict>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxEUaFi0Ezr/N4E/bsmUyDNUByp2akmFqGMkyPXDIYM=
+			fNwOTgvZ8hHf+21UYYZjy1f1PVBX8j7CEgpwPL2p9Ks=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -348,14 +348,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bClbrqjcm4uI60sRXfZPvPCrabyJmhYYySGpztNeGwo=
+			pHEUF7lyC9kXz17Y/1ulPUZk6c8zbL9Gehi5vAjcyrA=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VY7A74+DuHIYCvLervXiLEDv3E/yIKO+SqK45aBrsm0=
+			Z1tfVo/xg1KSx8zEJkMwVmCS04UzxYZZZWL7PjZ5LGY=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -369,14 +369,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VY7A74+DuHIYCvLervXiLEDv3E/yIKO+SqK45aBrsm0=
+			Z1tfVo/xg1KSx8zEJkMwVmCS04UzxYZZZWL7PjZ5LGY=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kU/ZoU+9CiL77KqvGbnbDvfRtKmiI+cHylmnxwIraGo=
+			7fWZdnbK0eSdex7yeidSe7rYkKRC52sh8rjVUD5u2b0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
