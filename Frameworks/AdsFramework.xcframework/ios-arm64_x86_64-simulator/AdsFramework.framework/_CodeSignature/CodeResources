@@ -8,18 +8,6 @@
 		<data>
 		9p7Allm3kq+lSaQ/oG17jy+F/UM=
 		</data>
-		<key>Frameworks/RealmSwift.framework/Info.plist</key>
-		<data>
-		XLKWxPYI4BQ+x2+0y44mjSUw/i4=
-		</data>
-		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
-		<data>
-		uvNkq5S+ovZBnCAAQY6gVxv/30o=
-		</data>
-		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
-		<data>
-		wmog7rWOISHBMj8iRs0NvHYzzjE=
-		</data>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<data>
 		RiHusyrNbUBpFP9/mJiEiOSMSsA=
@@ -104,27 +92,6 @@
 			<key>hash2</key>
 			<data>
 			nCSYq0tnM0prVnubQmn/bg85x01jFo4O+10POwu2LLo=
-			</data>
-		</dict>
-		<key>Frameworks/RealmSwift.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vP209PZMh1oXmoTuQ3BKyKTFkUq0TjZvTPC+Rs2bWZ8=
-			</data>
-		</dict>
-		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			heOnQO9Sk8RR0Sqbl1MkeAG/K7tWtCYB0tvKXptnEt4=
-			</data>
-		</dict>
-		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YYaRS7eHS7zw5jijnrxRBlrOEt/ab+ty6fJErtqBsoU=
 			</data>
 		</dict>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
