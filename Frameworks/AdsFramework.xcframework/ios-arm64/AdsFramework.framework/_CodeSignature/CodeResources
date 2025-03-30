@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<data>
-		pAM7wotB1XbpNWJoL76oJFGpHjQ=
+		+TX4H1eTxmnuSw6r751ij2gUQ5M=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hZUl4yKsTDY/GzbLDuW9ZwNiGLQ=
+		25VLmXu1F4IyNMT5RizQ4i5gBBA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZklxZGaCoz0yxhY08KolBKNkxJUoVgwW8QPC6k9XAHI=
+			7SmFIE6OEJUR91NN9gjrVBXKbtrtawpJmumiggobCaM=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SndhXSLdxDfP/yrijpw2cEEeEC7tet0GBnTWahwR+bw=
+			V/QmWKJGyh1Dql4pRN3w0ULjy1petLiGfHtcAiov5ME=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
