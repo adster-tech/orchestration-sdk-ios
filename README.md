@@ -23,7 +23,9 @@ Run the following command in the terminal:
  pod install
   ```
   
-After installation, close Xcode and open the .xcworkspace file instead of .xcodeproj.
+After installation, close Xcode and open the .xcworkspace file instead of .xcodeproj.a
+
+This framework depends on RealmSwift. Please install RealmSwift via Swift Package Manager - https://github.com/realm/realm-swift.git.
 
 
 ### Example:
