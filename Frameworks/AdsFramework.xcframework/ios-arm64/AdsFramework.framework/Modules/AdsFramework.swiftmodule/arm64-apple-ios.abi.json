@@ -357,16 +357,6 @@
       },
       {
         "kind": "Import",
-        "name": "Realm",
-        "printedName": "Realm",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "RealmSwift",
         "printedName": "RealmSwift",
         "declKind": "Import",
@@ -6670,16 +6660,6 @@
       },
       {
         "kind": "Import",
-        "name": "Realm",
-        "printedName": "Realm",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "RealmSwift",
         "printedName": "RealmSwift",
         "declKind": "Import",
@@ -11831,21 +11811,21 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Adster+Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 997,
       "length": 12,
       "value": "\"Clicked ad\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Adster+Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 2980,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Adster+Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3026,
       "length": 2,
       "value": "\"\""
     },
