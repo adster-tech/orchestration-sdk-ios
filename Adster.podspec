@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name              = 'Adster'
-s.version           = '1.0.3'
+s.version           = '1.0.6'
 s.summary           = 'Adster Sdk provides you complete ads support for your iOS application'
 s.homepage          = 'https://adster.tech/'
 s.license      = "MIT"
@@ -13,13 +13,9 @@ s.source            = {
 :tag => "#{s.version}" }
 
   s.vendored_frameworks = [
-    'Frameworks/AdsFramework.xcframework'
+    'Frameworks/AdsFramework.xcframework',
+    'Frameworks/DTBiOSSDK.xcframework',
+    'Frameworks/FBAudienceNetwork.xcframework'
   ]
-
-  s.pod_target_xcconfig = {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"
-  }
-  s.user_target_xcconfig = {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"
-  }
+s.frameworks = 'AdSupport', 'AppTrackingTransparency', 'WebKit'
 end
