@@ -7,7 +7,7 @@ The AdSter SDK provides integration for multiple ad types, including Banner, Int
 
 ## SDK Initialization
 
-Before requesting any ads, you need to initialize the SDK. This is a one-time setup step that should be done at the start of your application.
+Before requesting any ads, you need to initialize the SDK. This is a one-time setup step that should be done at the start of your application. This framework depends on RealmSwift. Please install RealmSwift via Swift Package Manager - https://github.com/realm/realm-swift.git.
 
 ### Installation via CocoaPods
 
@@ -24,8 +24,6 @@ Run the following command in the terminal:
   ```
   
 After installation, close Xcode and open the .xcworkspace file instead of .xcodeproj.a
-
-This framework depends on RealmSwift. Please install RealmSwift via Swift Package Manager - https://github.com/realm/realm-swift.git.
 
 
 ### Example:

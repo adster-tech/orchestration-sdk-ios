@@ -8,10 +8,6 @@
 		<data>
 		9p7Allm3kq+lSaQ/oG17jy+F/UM=
 		</data>
-		<key>Frameworks/libswift_Concurrency.dylib</key>
-		<data>
-		trSYfyfVxE74MPTx6cKkeiGYiGE=
-		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
 		DC2E3oPw52XQnjniN5nZf8JWlyI=
@@ -72,13 +68,6 @@
 			<key>hash2</key>
 			<data>
 			nCSYq0tnM0prVnubQmn/bg85x01jFo4O+10POwu2LLo=
-			</data>
-		</dict>
-		<key>Frameworks/libswift_Concurrency.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TCOinnNDJ++L+MwIWvFr9M1qSLznRmAwXx8Fw2hUr78=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
