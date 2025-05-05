@@ -84,6 +84,11 @@ public protocol MediationRewardedAdEventDelegate : AdsFramework.MediaionAdEventD
   func didEndVideo()
   func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
 }
+public struct MediationAdEventCallbacks {
+  public var onClick: (() -> Swift.Void)?
+  public var onImpression: (() -> Swift.Void)?
+  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil)
+}
 public typealias AdSterInitializationCompletionHandler = ([AdsFramework.AdapterStatus]?) -> Swift.Void
 @_hasMissingDesignatedInitializers final public class AdSter {
   public static func sharedInstance() -> AdsFramework.AdSter
@@ -112,6 +117,7 @@ public protocol Ad : AnyObject {
   var sdk: AdsFramework.SDK { get }
   var ttl: Swift.Int64 { get }
   var eCPM: Swift.Double? { get }
+  var eventCallbacks: AdsFramework.MediationAdEventCallbacks? { get set }
   func destroy()
 }
 public protocol MediationBannerAd : AdsFramework.Ad {
@@ -158,6 +164,7 @@ public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
   func recordImpression()
   func destroy()
 }
+public func anyToInt(_ value: Any?) -> Swift.Int?
 public class AdsterProvider : AdsFramework.AdsterDelegate {
   public init()
   public func configuration(withConfigKey: Swift.String, withEnvironment: AdsFramework.AdEnvironment, response: @escaping (Foundation.NSError?, Swift.Bool) -> Swift.Void)

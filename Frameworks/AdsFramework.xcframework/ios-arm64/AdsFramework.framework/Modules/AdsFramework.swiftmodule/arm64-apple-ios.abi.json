@@ -592,6 +592,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -729,6 +749,35 @@
         "declKind": "Import",
         "moduleName": "AdsFramework",
         "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -3228,6 +3277,395 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MediationAdEventCallbacks",
+        "printedName": "MediationAdEventCallbacks",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onClick",
+            "printedName": "onClick",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvp",
+            "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvg",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvs",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvs",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvM",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClickyycSgvM",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onImpression",
+            "printedName": "onImpression",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvp",
+            "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvg",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvs",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvs",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvM",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV12onImpressionyycSgvM",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onClick:onImpression:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MediationAdEventCallbacks",
+                "printedName": "AdsFramework.MediationAdEventCallbacks",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClick0G10ImpressionACyycSg_AFtcfc",
+            "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClick0G10ImpressionACyycSg_AFtcfc",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12AdsFramework25MediationAdEventCallbacksV",
+        "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Collections",
         "printedName": "Collections",
@@ -4196,6 +4634,121 @@
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventCallbacks",
+            "printedName": "eventCallbacks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdsFramework.MediationAdEventCallbacks?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationAdEventCallbacks",
+                    "printedName": "AdsFramework.MediationAdEventCallbacks",
+                    "usr": "s:12AdsFramework25MediationAdEventCallbacksV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvp",
+            "mangledName": "$s12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdsFramework.MediationAdEventCallbacks?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationAdEventCallbacks",
+                        "printedName": "AdsFramework.MediationAdEventCallbacks",
+                        "usr": "s:12AdsFramework25MediationAdEventCallbacksV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvg",
+                "mangledName": "$s12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.Ad>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.Ad>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdsFramework.MediationAdEventCallbacks?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationAdEventCallbacks",
+                        "printedName": "AdsFramework.MediationAdEventCallbacks",
+                        "usr": "s:12AdsFramework25MediationAdEventCallbacksV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvs",
+                "mangledName": "$s12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvs",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.Ad>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.Ad>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvM",
+                "mangledName": "$s12AdsFramework2AdP14eventCallbacksAA09Mediationc5EventE0VSgvM",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.Ad>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.Ad>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -6570,6 +7123,59 @@
             "mangledName": "$s12AdsFramework2AdP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "anyToInt",
+        "printedName": "anyToInt(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.Int?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AdsFramework8anyToIntySiSgypSgF",
+        "mangledName": "$s12AdsFramework8anyToIntySiSgypSgF",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -10509,27 +11115,6 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5594,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5622,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5656,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
-      "kind": "StringLiteral",
       "offset": 5686,
       "length": 2,
       "value": "\"\""
@@ -10537,14 +11122,35 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5729,
+      "offset": 5714,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5758,
+      "offset": 5748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5778,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5821,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Config\/FRConfigViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5850,
       "length": 2,
       "value": "\"\""
     },
@@ -10740,21 +11346,21 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobBannerAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 838,
+      "offset": 894,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1137,
+      "offset": 1193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1186,
+      "offset": 1242,
       "length": 5,
       "value": "false"
     },
@@ -10782,14 +11388,14 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "Array",
-      "offset": 559,
+      "offset": 615,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "Array",
-      "offset": 611,
+      "offset": 667,
       "length": 2,
       "value": "[]"
     },
@@ -10838,42 +11444,42 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialAd.swift",
       "kind": "Array",
-      "offset": 428,
+      "offset": 479,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialAd.swift",
       "kind": "Array",
-      "offset": 480,
+      "offset": 531,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1021,
+      "offset": 1073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1069,
+      "offset": 1121,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
-      "kind": "Array",
-      "offset": 1262,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "Array",
       "offset": 1314,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
+      "kind": "Array",
+      "offset": 1366,
       "length": 2,
       "value": "[]"
     },
@@ -11083,170 +11689,177 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3208,
+      "offset": 3201,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3247,
+      "offset": 3240,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3291,
+      "offset": 3284,
       "length": 13,
       "value": "\"placementId\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3331,
+      "offset": 3324,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3370,
+      "offset": 3363,
       "length": 8,
       "value": "\"sdkKey\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3408,
+      "offset": 3401,
       "length": 8,
       "value": "\"isInit\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 3441,
       "length": 10,
       "value": "\"adUnitId\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3490,
+      "offset": 3483,
       "length": 10,
       "value": "\"errorLog\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3533,
+      "offset": 3526,
       "length": 11,
       "value": "\"isRequest\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3584,
+      "offset": 3577,
       "length": 18,
       "value": "\"isRequestAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3636,
+      "offset": 3629,
       "length": 12,
       "value": "\"isResponse\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3678,
+      "offset": 3671,
       "length": 8,
       "value": "\"adType\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3721,
+      "offset": 3714,
       "length": 13,
       "value": "\"isOnSuccess\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 3759,
       "length": 10,
       "value": "\"isCached\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3800,
       "length": 11,
       "value": "\"isClicked\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3854,
+      "offset": 3847,
       "length": 14,
       "value": "\"isImpression\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 3901,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3960,
+      "offset": 3953,
       "length": 12,
       "value": "\"stackTrace\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4029,
+      "offset": 4022,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4060,
+      "offset": 4053,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4080,
+      "offset": 4073,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4115,
+      "offset": 4108,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4139,
+      "offset": 4132,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4169,
+      "offset": 4162,
       "length": 1,
       "value": "6"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/database\/Realm.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1548,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMAdapter.swift",
@@ -11293,21 +11906,21 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMBannerAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 1123,
+      "offset": 1179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 955,
+      "offset": 1006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1004,
+      "offset": 1055,
       "length": 5,
       "value": "false"
     },
@@ -11424,254 +12037,359 @@
       "value": "\"analytics\""
     },
     {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "BooleanLiteral",
+      "offset": 189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "FloatLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "IntegerLiteral",
+      "offset": 426,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "FloatLiteral",
+      "offset": 519,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Database.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Preload.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 35,
+      "value": "\"perloadAdExperimentCoolDownPeriod\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Preload.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 27,
+      "value": "\"preloadAdOnInitExperiment\""
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigDatabase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 176,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigDatabase.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "FloatLiteral",
-      "offset": 2046,
+      "offset": 2118,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2252,
+      "offset": 2324,
       "length": 8,
       "value": "\"native\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2351,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2312,
+      "offset": 2384,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2347,
+      "offset": 2419,
       "length": 10,
       "value": "\"rewarded\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2377,
+      "offset": 2449,
       "length": 9,
       "value": "\"appopen\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2409,
+      "offset": 2481,
       "length": 12,
       "value": "\"unifiedAoi\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2441,
+      "offset": 2513,
       "length": 9,
       "value": "\"unified\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2547,
       "length": 14,
       "value": "\"nativeCustom\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 2579,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2575,
+      "offset": 2647,
       "length": 13,
       "value": "\"INIT_CONFIG\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2684,
       "length": 14,
       "value": "\"INIT_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 2723,
       "length": 15,
       "value": "\"INIT_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2688,
+      "offset": 2760,
       "length": 12,
       "value": "\"AD_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 2802,
       "length": 21,
       "value": "\"AD_REQUEST_BACKFILL\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 2849,
       "length": 16,
       "value": "\"AD_OPPORTUNITY\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2822,
+      "offset": 2894,
       "length": 20,
       "value": "\"AD_REQUEST_ADAPTER\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2865,
+      "offset": 2937,
       "length": 13,
       "value": "\"AD_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 2972,
       "length": 12,
       "value": "\"AD_CLICKED\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2937,
+      "offset": 3009,
       "length": 15,
       "value": "\"AD_IMPRESSION\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2973,
+      "offset": 3045,
       "length": 11,
       "value": "\"AD_CACHED\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3007,
+      "offset": 3079,
       "length": 14,
       "value": "\"AD_CACHE_HIT\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3045,
+      "offset": 3117,
       "length": 15,
       "value": "\"AD_CACHE_MISS\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3082,
+      "offset": 3154,
       "length": 11,
       "value": "\"EXCEPTION\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3149,
+      "offset": 3221,
       "length": 7,
       "value": "\"admob\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3245,
       "length": 6,
       "value": "\"meta\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3195,
+      "offset": 3267,
       "length": 5,
       "value": "\"gam\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3219,
+      "offset": 3291,
       "length": 8,
       "value": "\"amazon\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3252,
+      "offset": 3324,
       "length": 15,
       "value": "\"amazon_direct\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3358,
       "length": 8,
       "value": "\"adster\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3386,
       "length": 9,
       "value": "\"liftoff\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3339,
+      "offset": 3411,
       "length": 5,
       "value": "\"jio\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3435,
       "length": 8,
       "value": "\"inmobi\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3461,
       "length": 7,
       "value": "\"unity\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3429,
+      "offset": 3501,
       "length": 22,
       "value": "\"headerBiddingAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 6059,
+      "offset": 6131,
       "length": 2,
       "value": "59"
     },
@@ -11713,28 +12431,28 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3253,
+      "offset": 3555,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3321,
+      "offset": 3623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdsCache.swift",
       "kind": "Dictionary",
-      "offset": 561,
+      "offset": 569,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdsCache.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 618,
       "length": 10,
       "value": "\"adsCache\""
     },
@@ -11755,14 +12473,21 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10667,
+      "offset": 14775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 38102,
+      "offset": 19337,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 44127,
       "length": 5,
       "value": "false"
     },
