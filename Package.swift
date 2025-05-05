@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-swift.git", from: "20.0.1")
+        .package(url: "https://github.com/realm/realm-swift.git", exact: "20.0.1")
     ],
     targets: [
         .binaryTarget(
