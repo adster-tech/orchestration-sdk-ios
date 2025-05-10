@@ -382,8 +382,7 @@
         "declKind": "Import",
         "moduleName": "AdsFramework",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -11192,126 +11191,126 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 211,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 287,
+      "offset": 252,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 294,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 382,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 458,
+      "offset": 423,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 503,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 672,
+      "offset": 637,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 682,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 729,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 809,
+      "offset": 774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 819,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "BooleanLiteral",
-      "offset": 983,
+      "offset": 948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
       "kind": "IntegerLiteral",
-      "offset": 1034,
+      "offset": 999,
       "length": 1,
       "value": "0"
     },
@@ -11857,7 +11856,7 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/database\/Realm.swift",
       "kind": "BooleanLiteral",
-      "offset": 1478,
+      "offset": 1470,
       "length": 4,
       "value": "true"
     },
