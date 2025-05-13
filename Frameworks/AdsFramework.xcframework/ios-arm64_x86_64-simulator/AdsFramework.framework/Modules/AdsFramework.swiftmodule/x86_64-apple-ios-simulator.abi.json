@@ -11856,7 +11856,7 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/database\/Realm.swift",
       "kind": "BooleanLiteral",
-      "offset": 1470,
+      "offset": 1541,
       "length": 4,
       "value": "true"
     },
@@ -12472,21 +12472,21 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14853,
+      "offset": 15073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19462,
+      "offset": 19682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 44252,
+      "offset": 44472,
       "length": 5,
       "value": "false"
     },
