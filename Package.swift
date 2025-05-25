@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "Adster",
+            type: .static,
             targets: ["Adster"]
         ),
     ],
