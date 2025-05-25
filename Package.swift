@@ -7,10 +7,7 @@ let package = Package(
         .iOS(.v14)
     ],
     products: [
-        .library(
-            name: "Adster",
-            targets: ["Adster"]
-        ),
+        .library(name: "AdsFramework", type: .static, targets: ["AdsFramework"]),
     ],
     dependencies: [
         .package(url: "https://github.com/realm/realm-swift.git", exact: "20.0.1")
