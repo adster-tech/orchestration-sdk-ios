@@ -6,6 +6,7 @@ import AppTrackingTransparency
 import Compression
 import Foundation
 import Network
+import SQLite3
 import Swift
 import UIKit
 import _Concurrency
