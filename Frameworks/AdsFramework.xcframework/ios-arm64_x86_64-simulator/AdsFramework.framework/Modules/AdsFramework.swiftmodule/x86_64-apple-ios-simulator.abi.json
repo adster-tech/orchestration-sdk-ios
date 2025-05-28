@@ -7112,6 +7112,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
         "kind": "Function",
         "name": "anyToInt",
         "printedName": "anyToInt(_:)",
@@ -7149,8 +7166,7 @@
         "mangledName": "$s12AdsFramework8anyToIntySiSgypSgF",
         "moduleName": "AdsFramework",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
       },
@@ -11666,168 +11682,168 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3209,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3240,
+      "offset": 3248,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3292,
       "length": 13,
       "value": "\"placementId\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3324,
+      "offset": 3332,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3371,
       "length": 8,
       "value": "\"sdkKey\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3401,
+      "offset": 3409,
       "length": 8,
       "value": "\"isInit\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3449,
       "length": 10,
       "value": "\"adUnitId\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3483,
+      "offset": 3491,
       "length": 10,
       "value": "\"errorLog\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3526,
+      "offset": 3534,
       "length": 11,
       "value": "\"isRequest\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3585,
       "length": 18,
       "value": "\"isRequestAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3629,
+      "offset": 3637,
       "length": 12,
       "value": "\"isResponse\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3671,
+      "offset": 3679,
       "length": 8,
       "value": "\"adType\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3714,
+      "offset": 3722,
       "length": 13,
       "value": "\"isOnSuccess\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3759,
+      "offset": 3767,
       "length": 10,
       "value": "\"isCached\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 3808,
       "length": 11,
       "value": "\"isClicked\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3847,
+      "offset": 3855,
       "length": 14,
       "value": "\"isImpression\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3901,
+      "offset": 3909,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3953,
+      "offset": 3961,
       "length": 12,
       "value": "\"stackTrace\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4022,
+      "offset": 4030,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4053,
+      "offset": 4061,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4073,
+      "offset": 4081,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4108,
+      "offset": 4116,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4132,
+      "offset": 4140,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4162,
+      "offset": 4170,
       "length": 1,
       "value": "6"
     },
@@ -12401,23 +12417,30 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15101,
+      "offset": 15193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19710,
+      "offset": 19802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 44500,
+      "offset": 44592,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Utility.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 16,
+      "value": "\"NetworkMonitor\""
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/UI - View\/Meta\/MetaNativeAdView.swift",
