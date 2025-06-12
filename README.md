@@ -5,6 +5,24 @@
 
 The AdSter SDK provides integration for multiple ad types, including Banner, Interstitial, Rewarded, and Native Ads. To use the SDK, you need to configure ad requests, initialize the SDK, and conform to the necessary protocols to handle ad events such as loading, impressions, and clicks.
 
+## Sample Ads
+
+Sample test adunits by Adster to ensure Ads are coming and is displayed in APP by the developers. 
+
+adster_banner_320x50 
+
+adster_banner_300x250 
+
+adster_native_test 
+
+adster_appopen_test 
+
+adster_interstitial_test 
+
+adster_unified_test 
+
+adster_rewarded_test
+
 ## SDK Initialization
 
 Before requesting any ads, you need to initialize the SDK. This is a one-time setup step that should be done at the start of your application. This framework depends on RealmSwift. Please install RealmSwift via Swift Package Manager - https://github.com/realm/realm-swift.git.
