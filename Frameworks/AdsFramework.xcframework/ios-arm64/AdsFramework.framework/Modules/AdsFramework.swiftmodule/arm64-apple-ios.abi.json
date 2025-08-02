@@ -320,83 +320,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdsFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "RealmSwift",
-        "printedName": "RealmSwift",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "RealmSwift",
-        "printedName": "RealmSwift",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftyJSON",
-        "printedName": "SwiftyJSON",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "RealmSwift",
-        "printedName": "RealmSwift",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -7238,36 +7161,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftyJSON",
-        "printedName": "SwiftyJSON",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "RealmSwift",
-        "printedName": "RealmSwift",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "AdsterProvider",
         "printedName": "AdsterProvider",
@@ -10915,119 +10808,6 @@
             "printedName": "JSONSubscriptType",
             "usr": "s:10SwiftyJSON17JSONSubscriptTypeP",
             "mangledName": "$s10SwiftyJSON17JSONSubscriptTypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_RealmSchemaDiscoverable",
-            "printedName": "_RealmSchemaDiscoverable",
-            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
-            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_PersistableInsideOptional",
-            "printedName": "_PersistableInsideOptional",
-            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
-            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_DefaultConstructible",
-            "printedName": "_DefaultConstructible",
-            "usr": "s:10RealmSwift21_DefaultConstructibleP",
-            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_PrimaryKey",
-            "printedName": "_PrimaryKey",
-            "usr": "s:10RealmSwift11_PrimaryKeyP",
-            "mangledName": "$s10RealmSwift11_PrimaryKeyP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_Indexable",
-            "printedName": "_Indexable",
-            "usr": "s:10RealmSwift10_IndexableP",
-            "mangledName": "$s10RealmSwift10_IndexableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_Persistable",
-            "printedName": "_Persistable",
-            "usr": "s:10RealmSwift12_PersistableP",
-            "mangledName": "$s10RealmSwift12_PersistableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasPersistedType",
-            "printedName": "_HasPersistedType",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "PersistedType",
-                "printedName": "PersistedType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10RealmSwift17_HasPersistedTypeP",
-            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjcBridgeable",
-            "printedName": "_ObjcBridgeable",
-            "usr": "s:10RealmSwift15_ObjcBridgeableP",
-            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_MapKey",
-            "printedName": "_MapKey",
-            "usr": "s:10RealmSwift7_MapKeyP",
-            "mangledName": "$s10RealmSwift7_MapKeyP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_QueryString",
-            "printedName": "_QueryString",
-            "usr": "s:10RealmSwift12_QueryStringP",
-            "mangledName": "$s10RealmSwift12_QueryStringP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_QueryBinary",
-            "printedName": "_QueryBinary",
-            "usr": "s:10RealmSwift12_QueryBinaryP",
-            "mangledName": "$s10RealmSwift12_QueryBinaryP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_RealmCollectionValueInsideOptional",
-            "printedName": "_RealmCollectionValueInsideOptional",
-            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
-            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RealmCollectionValue",
-            "printedName": "RealmCollectionValue",
-            "usr": "s:10RealmSwift0A15CollectionValueP",
-            "mangledName": "$s10RealmSwift0A15CollectionValueP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SortableType",
-            "printedName": "SortableType",
-            "usr": "s:10RealmSwift12SortableTypeP",
-            "mangledName": "$s10RealmSwift12SortableTypeP"
           }
         ]
       }
@@ -11146,167 +10926,6 @@
       "offset": 5850,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/RealmManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4258,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/RealmManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4315,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/RealmManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4391,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/RealmManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4422,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/RealmManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4453,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 294,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 337,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 382,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 423,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 503,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 550,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 594,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 774,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 819,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 865,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "BooleanLiteral",
-      "offset": 948,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Database\/TblEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 999,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobAdapter.swift",
@@ -12485,27 +12104,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Adster+Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 12,
-      "value": "\"Clicked ad\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Adster+Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 2980,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Adster+Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 3026,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/AdsterSDK.swift",
       "kind": "Array",
       "offset": 445,
@@ -12515,7 +12113,7 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/AdsterSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 7515,
+      "offset": 7527,
       "length": 1,
       "value": "1"
     },
@@ -12529,14 +12127,14 @@
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/AdsterSDK+Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 6023,
+      "offset": 6039,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adster\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/AdsterSDK+Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 6045,
+      "offset": 6061,
       "length": 1,
       "value": "1"
     },
