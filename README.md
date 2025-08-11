@@ -33,7 +33,7 @@ To integrate YourSDK into your Xcode project using CocoaPods, follow these steps
 
 Open your project's Podfile and add:
 ```ruby
- pod 'Adster', '~> 1.0.2'
+ pod 'Adster', '~> 1.2.2'
  ```
  
 Run the following command in the terminal:
