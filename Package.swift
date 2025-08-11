@@ -13,9 +13,6 @@ let package = Package(
             targets: ["Adster"]
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/realm/realm-swift.git", exact: "20.0.1")
-    ],
     targets: [
         .binaryTarget(
             name: "AdsFramework",
@@ -34,8 +31,7 @@ let package = Package(
             dependencies: [
                 "AdsFramework",
                 "DTBiOSSDK",
-                "FBAudienceNetwork",
-                .product(name: "RealmSwift", package: "realm-swift")
+                "FBAudienceNetwork"
             ],
             path: "Sources",
             linkerSettings: [
