@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.gitignore</key>
+		<data>
+		ot8mIgCZ9QzCLA022rw3mlZy158=
+		</data>
 		<key>AdsterBannerView.nib</key>
 		<data>
 		9p7Allm3kq+lSaQ/oG17jy+F/UM=
@@ -18,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LlHsH6dlbGDzBqOJ1eHP/zp7zTQ=
+		nmAyMKAWbCwox8SkAPk53B00AAQ=
 		</data>
 		<key>MetaNativeAdView.nib</key>
 		<data>
@@ -26,11 +30,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TY2CS0dBTmG7/mm9tOaQJ3AP5aw=
+		Uu9QNIlcGOT8xjH/zzXpEn0vXx4=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZWOkdhsxFQnPWoqg8B9gQYNO9Qc=
+		xzl2xE2jQLZucIzODfHdYuZnFhc=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZWOkdhsxFQnPWoqg8B9gQYNO9Qc=
+		xzl2xE2jQLZucIzODfHdYuZnFhc=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		79UvC8ckPdGS/xMyJdCtlELjZ9s=
+		1K+AFET/Z6imp/hsNIQXYP2sYvc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,6 +67,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.gitignore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jN8xxT9/UjiRFqm4hd21gOb/cpWsRTbCGBLMwoNLyxs=
+			</data>
+		</dict>
 		<key>AdsterBannerView.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -95,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BtJr23qeHO+LI0tly/hp99iCuh9pg6pi/cvZVvH03CQ=
+			GiN/Gl6v8K2J+362ZzVcgNwJB1lwhrvh+THMef84vhU=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xOgy5w34RxUEWAMQ8OXQ+pMYbL12hUBF8uxNVx732c=
+			SUJ0nQtErAgdaB18KU8TvSioDtRofdXeytnyNPh2FFI=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -116,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xOgy5w34RxUEWAMQ8OXQ+pMYbL12hUBF8uxNVx732c=
+			SUJ0nQtErAgdaB18KU8TvSioDtRofdXeytnyNPh2FFI=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZVEOhK20doFTugloJfgAzOfGJLPM2fwY6yp/sF8LLo4=
+			QtaiuMS2316AUvZA77S4ZXy798YrX20u+XJpdkhqWnM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -14,45 +14,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
-public struct AdapterStatus {
-}
-public struct AdError : Swift.Error {
-  public let description: Swift.String?
-}
-public protocol MediaionAdEventDelegate : AnyObject {
-  func recordClick()
-  func recordImpression()
-}
-public protocol MediationBannerAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
-}
-public protocol MediationNativeAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
-}
-public protocol MediationNativeCustomAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
-}
-public protocol MediationInterstitialAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
-  func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
-  func adWillPresentFullScreenContent()
-  func adDidDismissFullScreenContent()
-}
-public protocol MediationRewardedAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
-  func didRewardUser()
-  func didStartVideo()
-  func didEndVideo()
-  func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
-}
-public struct MediationAdEventCallbacks {
-  public var onClick: (() -> Swift.Void)?
-  public var onImpression: (() -> Swift.Void)?
-  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil)
-}
-public class AdsterProvider : AdsFramework.AdsterDelegate {
-  public init()
-  public func configuration(withConfigKey: Swift.String, withEnvironment: AdsFramework.AdEnvironment, response: @escaping (Foundation.NSError?, Swift.Bool) -> Swift.Void)
-  public func loadAd(for adRequest: AdsFramework.ADRequest)
-  public func displayAd(for adRequest: AdsFramework.ADRequest)
-  public func setAdSDK(_ sdk: AdsFramework.AdSDK)
-  @objc deinit
-}
 public typealias AdSterInitializationCompletionHandler = ([AdsFramework.AdapterStatus]?) -> Swift.Void
 @_hasMissingDesignatedInitializers final public class AdSter {
   public static func sharedInstance() -> AdsFramework.AdSter
@@ -76,14 +37,10 @@ public protocol MediationAdDelegate : AnyObject {
   func onCustomNativeAdLoaded(customNativeAd: any AdsFramework.MediationNativeCustomFormatAd)
   func onAdFailedToLoad(error: AdsFramework.AdError)
 }
-public protocol AdsterDelegate {
-  func configuration(withConfigKey: Swift.String, withEnvironment: AdsFramework.AdEnvironment, response: @escaping (_ objError: Foundation.NSError?, _ statusValue: Swift.Bool) -> Swift.Void)
-  func loadAd(for adRequest: AdsFramework.ADRequest)
-  func displayAd(for adRequest: AdsFramework.ADRequest)
-}
-public protocol AdsterAdsDelegate {
-  func didReceiveAd(for adRequest: AdsFramework.ADRequest)
-  func didFailAd(for adRequest: AdsFramework.ADRequest, error: any Swift.Error)
+extension Swift.String {
+  public var trimmed: Swift.String {
+    get
+  }
 }
 public protocol Ad : AnyObject {
   var adType: AdsFramework.AdSterAdType { get }
@@ -137,6 +94,74 @@ public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
   func recordImpression()
   func destroy()
 }
+public func printLog<T>(_ message: T, _ file: Swift.String = #file, _ lineNumber: Swift.Int = #line, _ function: Swift.String = #function)
+public func getCurrentTimeInMillis() -> Swift.Int64
+public func runOnMainThread(block: @escaping () -> ())
+public func runInBackground(block: @escaping () -> ())
+public func runOnMainThreadWithoutDeadlock(block: @escaping () -> ())
+public func runAfterTime(time: Swift.Double, block: @escaping () -> ())
+public func fetchIDFA() -> Swift.String?
+public struct ADRequest {
+  public var adKey: Swift.String {
+    get
+  }
+  public init(adKey: Swift.String = "", adView: UIKit.UIView? = nil, viewController: UIKit.UIViewController? = nil, delegateNew: (any AdsFramework.AdsterAdsDelegate)? = nil, identifyer: Swift.String? = nil)
+}
+public func anyToInt(_ value: Any?) -> Swift.Int?
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MediationNativeAdView : UIKit.UIView {
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var headlineView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var mediaView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency public var ctaView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var bodyView: UIKit.UIView!
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency public func setNativeAd(nativeAd: any AdsFramework.MediationNativeAd)
+  @objc deinit
+}
+public class AdsterProvider : AdsFramework.AdsterDelegate {
+  public init()
+  public func configuration(withConfigKey: Swift.String, withEnvironment: AdsFramework.AdEnvironment, response: @escaping (Foundation.NSError?, Swift.Bool) -> Swift.Void)
+  public func loadAd(for adRequest: AdsFramework.ADRequest)
+  public func displayAd(for adRequest: AdsFramework.ADRequest)
+  public func setAdSDK(_ sdk: AdsFramework.AdSDK)
+  @objc deinit
+}
+public struct AdapterStatus {
+}
+public struct AdError : Swift.Error {
+  public let description: Swift.String?
+}
+public protocol MediaionAdEventDelegate : AnyObject {
+  func recordClick()
+  func recordImpression()
+}
+public protocol MediationBannerAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+}
+public protocol MediationNativeAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+}
+public protocol MediationNativeCustomAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+}
+public protocol MediationInterstitialAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+  func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
+  func adWillPresentFullScreenContent()
+  func adDidDismissFullScreenContent()
+}
+public protocol MediationRewardedAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+  func didRewardUser(reward: AdsFramework.AdReward)
+  func didStartVideo()
+  func didEndVideo()
+  func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
+}
+public struct MediationAdEventCallbacks {
+  public var onClick: (() -> Swift.Void)?
+  public var onImpression: (() -> Swift.Void)?
+  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil)
+}
+public struct AdReward {
+  public let amount: Foundation.NSDecimalNumber
+  public let type: Swift.String?
+  public let description: Swift.String?
+}
 public enum AdSterAdType : Swift.String, Swift.Codable {
   case native
   case banner
@@ -171,6 +196,15 @@ public enum SDK : Swift.String, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol AdsterDelegate {
+  func configuration(withConfigKey: Swift.String, withEnvironment: AdsFramework.AdEnvironment, response: @escaping (_ objError: Foundation.NSError?, _ statusValue: Swift.Bool) -> Swift.Void)
+  func loadAd(for adRequest: AdsFramework.ADRequest)
+  func displayAd(for adRequest: AdsFramework.ADRequest)
+}
+public protocol AdsterAdsDelegate {
+  func didReceiveAd(for adRequest: AdsFramework.ADRequest)
+  func didFailAd(for adRequest: AdsFramework.ADRequest, error: any Swift.Error)
 }
 public enum AdEnvironment {
   case Development
@@ -240,35 +274,6 @@ extension AdsFramework.MyError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get
   }
-}
-extension Swift.String {
-  public var trimmed: Swift.String {
-    get
-  }
-}
-public func anyToInt(_ value: Any?) -> Swift.Int?
-public func printLog<T>(_ message: T, _ file: Swift.String = #file, _ lineNumber: Swift.Int = #line, _ function: Swift.String = #function)
-public func getCurrentTimeInMillis() -> Swift.Int64
-public func runOnMainThread(block: @escaping () -> ())
-public func runInBackground(block: @escaping () -> ())
-public func runOnMainThreadWithoutDeadlock(block: @escaping () -> ())
-public func runAfterTime(time: Swift.Double, block: @escaping () -> ())
-public func fetchIDFA() -> Swift.String?
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MediationNativeAdView : UIKit.UIView {
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var headlineView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var mediaView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency public var ctaView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var bodyView: UIKit.UIView!
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
-  @_Concurrency.MainActor @preconcurrency public func setNativeAd(nativeAd: any AdsFramework.MediationNativeAd)
-  @objc deinit
-}
-public struct ADRequest {
-  public var adKey: Swift.String {
-    get
-  }
-  public init(adKey: Swift.String = "", adView: UIKit.UIView? = nil, viewController: UIKit.UIViewController? = nil, delegateNew: (any AdsFramework.AdsterAdsDelegate)? = nil, identifyer: Swift.String? = nil)
 }
 extension AdsFramework.AdSterAdType : Swift.Equatable {}
 extension AdsFramework.AdSterAdType : Swift.Hashable {}
