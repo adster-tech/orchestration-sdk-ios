@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name              = 'Adster'
-s.version           = '1.2.5'
+s.version           = '1.2.6'
 s.summary           = 'Adster Sdk provides you complete ads support for your iOS application'
 s.homepage          = 'https://adster.tech/'
 s.license      = "MIT"
