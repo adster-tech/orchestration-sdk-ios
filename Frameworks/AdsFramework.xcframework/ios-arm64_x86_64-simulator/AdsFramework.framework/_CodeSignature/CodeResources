@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SJcRRIQ5v3eh4UK9SFVbOxJ7O1o=
+		+EjUSfEservep3mGI7p7gRlML60=
 		</data>
 		<key>MetaNativeAdView.nib</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nu1+53C5IdQrE9gbzTn3fMD5wgk=
+		E+NMYG19LCTvfYT/3Xt0dRt/qSY=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EqK045aYkfHli2+nAR3i9PevA4Y=
+		wccwZs9WWuGD8tM+Eve5sxrFo4s=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EqK045aYkfHli2+nAR3i9PevA4Y=
+		wccwZs9WWuGD8tM+Eve5sxrFo4s=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LWYsKevq/KTNDDYMZHKm9fKLpOg=
+		07RFWE/EFFaIdvvXspFXxJBnXOU=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nu1+53C5IdQrE9gbzTn3fMD5wgk=
+		E+NMYG19LCTvfYT/3Xt0dRt/qSY=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pPEaFxIyI/9mJYXr++2Ycfk60lM=
+		JPtQxMFIhecCDgg0BigWpylkgNk=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pPEaFxIyI/9mJYXr++2Ycfk60lM=
+		JPtQxMFIhecCDgg0BigWpylkgNk=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		37yRDSkIl5KS+R3k/K16OX2eoPk=
+		lXuaqMUeuIzPzp2XjXR76ezc0lg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oP+3TGLoJiS65CEScnAEOJviPgGW8/ryQDukJHRHeOg=
+			CkElhDX1ksmtQgz1NLtCg2i4oEDZpLgknwWSPE0cthw=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4yAloyygQ8qFSelP2E5mCgnRSpMUPOAZezs1F2ZY+O8=
+			qCiCYHkLbOyP58BcI86671OujXUcLk3kw/YBNAptmM8=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -147,28 +147,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4yAloyygQ8qFSelP2E5mCgnRSpMUPOAZezs1F2ZY+O8=
+			qCiCYHkLbOyP58BcI86671OujXUcLk3kw/YBNAptmM8=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D95525K2pmgZfVVPMqdgimAhH6sCOZ2BFGf2LHYRR7Y=
+			iw3/TBPt1GApY5UkLTvkZQIC5SWUEpVYw4wBZpQ62fE=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oP+3TGLoJiS65CEScnAEOJviPgGW8/ryQDukJHRHeOg=
+			CkElhDX1ksmtQgz1NLtCg2i4oEDZpLgknwWSPE0cthw=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EZ42iyVbs7XbTYfvM6zGq8Hg+7l2XtBzTf1RQ2DXYMk=
+			F3weuk5qPomh9n5NEDVb9ibtjbLUPTh8YCkvjiRL6do=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -182,14 +182,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EZ42iyVbs7XbTYfvM6zGq8Hg+7l2XtBzTf1RQ2DXYMk=
+			F3weuk5qPomh9n5NEDVb9ibtjbLUPTh8YCkvjiRL6do=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7moyMn9YnK8VQyW5S4do3GgZN81JAJ5iBVT90ML35Z8=
+			pSsNXsRzE7rLegh081d2XiHqaUkFRtpswLsUkyelIhs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

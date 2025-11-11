@@ -23,18 +23,36 @@ public protocol MediaionAdEventDelegate : AnyObject {
   func recordClick()
   func recordImpression()
 }
-public protocol MediationBannerAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+public protocol MediationBannerAdEventDelegate : AnyObject {
+  func recordBannerClick()
+  func recordBannerImpression()
 }
-public protocol MediationNativeAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+public protocol MediationNativeAdEventDelegate : AnyObject {
+  func recordNativeClick()
+  func recordNativeImpression()
 }
-public protocol MediationNativeCustomAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+public protocol MediationNativeCustomAdEventDelegate : AnyObject {
+  func recordNativeCustomClick()
+  func recordNativeCustomImpression()
 }
-public protocol MediationInterstitialAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+public protocol MediationInterstitialAdEventDelegate : AnyObject {
+  func recordInterstitialClick()
+  func recordInterstitialImpression()
   func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
   func adWillPresentFullScreenContent()
   func adDidDismissFullScreenContent()
 }
-public protocol MediationRewardedAdEventDelegate : AdsFramework.MediaionAdEventDelegate {
+public protocol MediationRewardedAdEventDelegate : AnyObject {
+  func recordRewardedClick()
+  func recordRewardedImpression()
+  func didRewardUser(reward: AdsFramework.AdReward)
+  func didStartVideo()
+  func didEndVideo()
+  func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
+}
+public protocol MediationRewardedInterstitialAdEventDelegate : AnyObject {
+  func recordRewardedInterstitialClick()
+  func recordRewardedInterstitialImpression()
   func didRewardUser(reward: AdsFramework.AdReward)
   func didStartVideo()
   func didEndVideo()
@@ -131,6 +149,7 @@ public enum AdSterAdType : Swift.String, Swift.Codable {
   case banner
   case interstitial
   case rewarded
+  case rewarded_inter
   case appOpen
   case unifiedAoi
   case unified
@@ -180,6 +199,7 @@ public protocol MediationAdDelegate : AnyObject {
   func onBannerAdLoaded(bannerAd: any AdsFramework.MediationBannerAd)
   func onInterstitialAdLoaded(interstitialAd: any AdsFramework.MediationInterstitialAd)
   func onRewardedAdLoaded(rewardedAd: any AdsFramework.MediationRewardedAd)
+  func onRewardedInterstitialAdLoaded(rewardedInterstitialAd: any AdsFramework.MediationRewardedInterstitialAd)
   func onNativeAdLoaded(nativeAd: any AdsFramework.MediationNativeAd)
   func onCustomNativeAdLoaded(customNativeAd: any AdsFramework.MediationNativeCustomFormatAd)
   func onAdFailedToLoad(error: AdsFramework.AdError)
@@ -220,6 +240,10 @@ public protocol MediationRewardedAd : AdsFramework.Ad {
   func presentRewarded(from viewController: UIKit.UIViewController?)
   var eventDelegate: (any AdsFramework.MediationRewardedAdEventDelegate)? { get set }
 }
+public protocol MediationRewardedInterstitialAd : AdsFramework.Ad {
+  func presentRewardedInterstitial(from viewController: UIKit.UIViewController?)
+  var eventDelegate: (any AdsFramework.MediationRewardedInterstitialAdEventDelegate)? { get set }
+}
 public protocol MediationNativeAd : AdsFramework.Ad {
   var eventDelegate: (any AdsFramework.MediationNativeAdEventDelegate)? { get set }
   var headline: Swift.String? { get }
@@ -235,8 +259,8 @@ public protocol MediationNativeAd : AdsFramework.Ad {
   var overrideImpressionHandling: Swift.Bool { get set }
   var overrideClickHandling: Swift.Bool { get set }
   func registerAdView(_ adView: UIKit.UIView, clickableAssetViews: [Swift.String : UIKit.UIView?])
-  func recordClick()
-  func recordImpression()
+  func recordNativeClick()
+  func recordNativeImpression()
 }
 public protocol MediationUnifiedAd : AdsFramework.Ad {
   var nativeAd: (any AdsFramework.MediationNativeAd)? { get set }
@@ -249,7 +273,7 @@ public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
   func getCustomFormatId() -> Swift.String?
   func getAvailableAssetNames() -> [Swift.String]?
   func performClick(on assetName: Swift.String)
-  func recordImpression()
+  func recordNativeImpression()
   func destroy()
 }
 extension AdsFramework.AdEnvironment : Swift.Equatable {}
