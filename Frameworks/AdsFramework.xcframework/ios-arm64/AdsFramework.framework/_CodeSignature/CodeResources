@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+OZo40r07ir2w4DMGfDtC8jwMYI=
+		qQhtAx/t5nBKqSe0IPE74h8fxAo=
 		</data>
 		<key>MetaNativeAdView.nib</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		dNVGAsWyKcLLRc5a0dYZQ2NDA5U=
+		lYzY4M1y7oFQySJ55FtvL3D6/nU=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qnZocHJX/vwTzC5AK0L/Xm5Rm20=
+		5Dt54TaJAeVQ3Wl801a9RjihMS0=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qnZocHJX/vwTzC5AK0L/Xm5Rm20=
+		5Dt54TaJAeVQ3Wl801a9RjihMS0=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		QEjSwrKoEL5RyiSC6NqEARJdWr0=
+		ZeuRUBfylasYuwUWv2TtaJfDWbE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cLgMeTPwMjLfHdZKLw275aYD+uaGcS7L1Hd6ZJoMFhk=
+			yp8TcqE6FpEJCbfJw4WjqEMCGretq+mSa4E5JlAXdko=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MojfkkNeTdZNh4vF4ZKVE0tRnCeItbEW1cOUYXyloSI=
+			07SUspANZJfiP7eSJ2Gd3pIb5iVSeBPfrMSzQP6eEj8=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MojfkkNeTdZNh4vF4ZKVE0tRnCeItbEW1cOUYXyloSI=
+			07SUspANZJfiP7eSJ2Gd3pIb5iVSeBPfrMSzQP6eEj8=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ONFb/0DOW6+42Athv5egjYCM0HeDafTQWervkHU+aNY=
+			iqXnN5p9KmdlFXQbCgC/jKaSdH9Xw2e1qFXFlcmIAb0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
