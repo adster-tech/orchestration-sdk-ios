@@ -18,20 +18,10 @@ let package = Package(
             name: "AdsFramework",
             path: "Frameworks/AdsFramework.xcframework"
         ),
-        .binaryTarget(
-            name: "DTBiOSSDK",
-            path: "Frameworks/DTBiOSSDK.xcframework"
-        ),
-        .binaryTarget(
-            name: "FBAudienceNetwork",
-            path: "Frameworks/FBAudienceNetwork.xcframework"
-        ),
         .target(
             name: "Adster",
             dependencies: [
-                "AdsFramework",
-                "DTBiOSSDK",
-                "FBAudienceNetwork"
+                "AdsFramework"
             ],
             path: "Sources",
             linkerSettings: [

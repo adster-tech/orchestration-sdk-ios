@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name              = 'Adster'
-s.version           = '1.2.9'
+s.version           = '1.3.0'
 s.summary           = 'Adster Sdk provides you complete ads support for your iOS application'
 s.homepage          = 'https://adster.tech/'
 s.license      = "MIT"
@@ -14,8 +14,6 @@ s.source            = {
 
   s.vendored_frameworks = [
     'Frameworks/AdsFramework.xcframework',
-    'Frameworks/DTBiOSSDK.xcframework',
-    'Frameworks/FBAudienceNetwork.xcframework'
   ]
 s.frameworks = 'AdSupport', 'AppTrackingTransparency', 'WebKit'
 end

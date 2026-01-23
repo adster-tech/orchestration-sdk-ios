@@ -22,19 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qQhtAx/t5nBKqSe0IPE74h8fxAo=
-		</data>
-		<key>MetaNativeAdView.nib</key>
-		<data>
-		P/t/eJl9QDpsrkF7LPX/UEmbWmw=
+		UDAUac8XaqY0HAPwDz8uWWgSo3E=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lYzY4M1y7oFQySJ55FtvL3D6/nU=
+		K6nBkH6oc5BidUqTY2PkD1qRN4I=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5Dt54TaJAeVQ3Wl801a9RjihMS0=
+		wT106NwjdXeaGn7SeR9PsHcE0yM=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +38,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5Dt54TaJAeVQ3Wl801a9RjihMS0=
+		wT106NwjdXeaGn7SeR9PsHcE0yM=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZeuRUBfylasYuwUWv2TtaJfDWbE=
+		FQZQtOxiw3jKOjiuPfY6CmiymdU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,25 +91,18 @@
 			fuYHybfpv2TTJrsFdmxL+FeKHGm660INbBjahmgtz6c=
 			</data>
 		</dict>
-		<key>MetaNativeAdView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H4jGbcCaUQdYzI1WT9PI1GxDkSNlXkm+5zA2z+i/80U=
-			</data>
-		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yp8TcqE6FpEJCbfJw4WjqEMCGretq+mSa4E5JlAXdko=
+			g91/LWv66al7jbXG4Yxk7aZK3ZRetEp8TngGyREqjx0=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			07SUspANZJfiP7eSJ2Gd3pIb5iVSeBPfrMSzQP6eEj8=
+			tpz1OoziWYDxfmV7EnfdGysPVIDXCxtPcFEWYyiEpmo=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -127,14 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			07SUspANZJfiP7eSJ2Gd3pIb5iVSeBPfrMSzQP6eEj8=
+			tpz1OoziWYDxfmV7EnfdGysPVIDXCxtPcFEWYyiEpmo=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iqXnN5p9KmdlFXQbCgC/jKaSdH9Xw2e1qFXFlcmIAb0=
+			WNDqowuuwUCnx8W+k/discECtlIndSO28X/n8Z1Q3kM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
