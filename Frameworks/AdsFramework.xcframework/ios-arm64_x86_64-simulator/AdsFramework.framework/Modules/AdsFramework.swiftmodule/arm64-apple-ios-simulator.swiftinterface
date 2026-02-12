@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdsFramework
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdsFramework
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import AdsFramework
 import AppTrackingTransparency
 import Compression
@@ -25,7 +25,9 @@ public enum AdSterAdType : Swift.String, Swift.Codable {
   case unified
   case nativeCustom
   case video
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -41,7 +43,9 @@ public enum SDK : Swift.String, Swift.Codable {
   case unity
   case headerBiddingAdapter
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -56,74 +60,6 @@ public enum SDK : Swift.String, Swift.Codable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency public func setNativeAd(nativeAd: any AdsFramework.MediationNativeAd)
   @objc deinit
-}
-public func printLog<T>(_ message: T, _ file: Swift.String = #file, _ lineNumber: Swift.Int = #line, _ function: Swift.String = #function)
-public func getCurrentTimeInMillis() -> Swift.Int64
-public func runOnMainThread(block: @escaping () -> ())
-public func runInBackground(block: @escaping () -> ())
-public func runOnMainThreadWithoutDeadlock(block: @escaping () -> ())
-public func runAfterTime(time: Swift.Double, block: @escaping () -> ())
-public func fetchIDFA() -> Swift.String?
-public protocol Ad : AnyObject {
-  var adType: AdsFramework.AdSterAdType { get }
-  var sdk: AdsFramework.SDK { get }
-  var ttl: Swift.Int64 { get }
-  var eCPM: Swift.Double? { get }
-  var eventCallbacks: AdsFramework.MediationAdEventCallbacks? { get set }
-  func destroy()
-}
-public protocol MediationBannerAd : AdsFramework.Ad {
-  var view: UIKit.UIView? { get }
-  var eventDelegate: (any AdsFramework.MediationBannerAdEventDelegate)? { get set }
-}
-public protocol MediationInterstitialAd : AdsFramework.Ad {
-  func presentInterstitial(from viewController: UIKit.UIViewController?)
-  var eventDelegate: (any AdsFramework.MediationInterstitialAdEventDelegate)? { get set }
-}
-public protocol MediationRewardedAd : AdsFramework.Ad {
-  func presentRewarded(from viewController: UIKit.UIViewController?)
-  var eventDelegate: (any AdsFramework.MediationRewardedAdEventDelegate)? { get set }
-}
-public protocol MediationRewardedInterstitialAd : AdsFramework.Ad {
-  func presentRewardedInterstitial(from viewController: UIKit.UIViewController?)
-  var eventDelegate: (any AdsFramework.MediationRewardedInterstitialAdEventDelegate)? { get set }
-}
-public protocol MediationNativeAd : AdsFramework.Ad {
-  var eventDelegate: (any AdsFramework.MediationNativeAdEventDelegate)? { get set }
-  var headline: Swift.String? { get }
-  var callToAction: Swift.String? { get }
-  var icon: Swift.String? { get }
-  var body: Swift.String? { get }
-  var landingUrl: Swift.String? { get }
-  var starRating: Swift.Double? { get }
-  var store: Swift.String? { get }
-  var price: Swift.String? { get }
-  var advertiser: Swift.String? { get }
-  var mediaView: UIKit.UIView? { get }
-  var overrideImpressionHandling: Swift.Bool { get set }
-  var overrideClickHandling: Swift.Bool { get set }
-  func registerAdView(_ adView: UIKit.UIView, clickableAssetViews: [Swift.String : UIKit.UIView?])
-  func recordNativeClick()
-  func recordNativeImpression()
-}
-public protocol MediationUnifiedAd : AdsFramework.Ad {
-  var nativeAd: (any AdsFramework.MediationNativeAd)? { get set }
-  var bannerAd: (any AdsFramework.MediationBannerAd)? { get set }
-  var customNativeAd: (any AdsFramework.MediationNativeCustomFormatAd)? { get set }
-}
-public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
-  var eventDelegate: (any AdsFramework.MediationNativeCustomAdEventDelegate)? { get set }
-  func getText(for assetName: Swift.String) -> Swift.String?
-  func getCustomFormatId() -> Swift.String?
-  func getAvailableAssetNames() -> [Swift.String]?
-  func performClick(on assetName: Swift.String)
-  func recordNativeImpression()
-  func destroy()
-}
-extension Swift.String {
-  public var trimmed: Swift.String {
-    get
-  }
 }
 public struct AdapterStatus {
 }
@@ -172,7 +108,9 @@ public protocol MediationRewardedInterstitialAdEventDelegate : AnyObject {
 public struct MediationAdEventCallbacks {
   public var onClick: (() -> Swift.Void)?
   public var onImpression: (() -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil)
+  #endif
 }
 public struct AdReward {
   public let amount: Foundation.NSDecimalNumber
@@ -182,7 +120,9 @@ public struct AdReward {
 public typealias AdSterInitializationCompletionHandler = ([AdsFramework.AdapterStatus]?) -> Swift.Void
 @_hasMissingDesignatedInitializers final public class AdSter {
   public static func sharedInstance() -> AdsFramework.AdSter
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func start(completionHandler: AdsFramework.AdSterInitializationCompletionHandler? = nil)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class AdSterAdLoader : ObjectiveC.NSObject {
@@ -192,7 +132,9 @@ public typealias AdSterInitializationCompletionHandler = ([AdsFramework.AdapterS
   @objc deinit
 }
 public struct AdRequestConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : Swift.String] = [:], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil)
+  #endif
 }
 public protocol MediationAdDelegate : AnyObject {
   func onBannerAdLoaded(bannerAd: any AdsFramework.MediationBannerAd)
@@ -203,7 +145,123 @@ public protocol MediationAdDelegate : AnyObject {
   func onCustomNativeAdLoaded(customNativeAd: any AdsFramework.MediationNativeCustomFormatAd)
   func onAdFailedToLoad(error: AdsFramework.AdError)
 }
+public protocol Ad : AnyObject {
+  var adType: AdsFramework.AdSterAdType { get }
+  var sdk: AdsFramework.SDK { get }
+  var ttl: Swift.Int64 { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eCPM: Swift.Double? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventCallbacks: AdsFramework.MediationAdEventCallbacks? { get set }
+  #endif
+  func destroy()
+}
+public protocol MediationBannerAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var view: UIKit.UIView? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationBannerAdEventDelegate)? { get set }
+  #endif
+}
+public protocol MediationInterstitialAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func presentInterstitial(from viewController: UIKit.UIViewController?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationInterstitialAdEventDelegate)? { get set }
+  #endif
+}
+public protocol MediationRewardedAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func presentRewarded(from viewController: UIKit.UIViewController?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationRewardedAdEventDelegate)? { get set }
+  #endif
+}
+public protocol MediationRewardedInterstitialAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func presentRewardedInterstitial(from viewController: UIKit.UIViewController?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationRewardedInterstitialAdEventDelegate)? { get set }
+  #endif
+}
+public protocol MediationNativeAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationNativeAdEventDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var headline: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var callToAction: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icon: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var body: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var landingUrl: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var starRating: Swift.Double? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var store: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var price: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var advertiser: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var mediaView: UIKit.UIView? { get }
+  #endif
+  var overrideImpressionHandling: Swift.Bool { get set }
+  var overrideClickHandling: Swift.Bool { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
+  func registerAdView(_ adView: UIKit.UIView, clickableAssetViews: [Swift.String : UIKit.UIView?])
+  #endif
+  func recordNativeClick()
+  func recordNativeImpression()
+}
+public protocol MediationUnifiedAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var nativeAd: (any AdsFramework.MediationNativeAd)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var bannerAd: (any AdsFramework.MediationBannerAd)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var customNativeAd: (any AdsFramework.MediationNativeCustomFormatAd)? { get set }
+  #endif
+}
+public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationNativeCustomAdEventDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getText(for assetName: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCustomFormatId() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getAvailableAssetNames() -> [Swift.String]?
+  #endif
+  func performClick(on assetName: Swift.String)
+  func recordNativeImpression()
+  func destroy()
+}
+#if compiler(>=5.3) && $NonescapableTypes
 public func anyToInt(_ value: Any?) -> Swift.Int?
+#endif
 public enum AdEnvironment {
   case Development
   case Production
@@ -218,7 +276,9 @@ public enum AdSDK : Swift.String {
   case GAM
   case AdsterNative
   case Unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -233,7 +293,9 @@ public enum AdType : Swift.String {
   case RewardedInterstitial
   case AppOpen
   case Unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -254,7 +316,9 @@ public enum AdEventType : Swift.String {
   case AD_CACHE_HIT
   case AD_CACHE_MISS
   case EXCEPTION
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -267,10 +331,26 @@ public enum MyError : Swift.Error {
   case customErr(Swift.String)
 }
 extension AdsFramework.MyError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
+extension Swift.String {
+  public var trimmed: Swift.String {
+    get
+  }
+}
+public func printLog<T>(_ message: T, _ file: Swift.String = #file, _ lineNumber: Swift.Int = #line, _ function: Swift.String = #function)
+public func getCurrentTimeInMillis() -> Swift.Int64
+public func runOnMainThread(block: @escaping () -> ())
+public func runInBackground(block: @escaping () -> ())
+public func runOnMainThreadWithoutDeadlock(block: @escaping () -> ())
+public func runAfterTime(time: Swift.Double, block: @escaping () -> ())
+#if compiler(>=5.3) && $NonescapableTypes
+public func fetchIDFA() -> Swift.String?
+#endif
 extension AdsFramework.AdSterAdType : Swift.Equatable {}
 extension AdsFramework.AdSterAdType : Swift.Hashable {}
 extension AdsFramework.AdSterAdType : Swift.RawRepresentable {}
