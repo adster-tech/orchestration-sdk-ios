@@ -200,6 +200,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -225,6 +232,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -10530,38 +10547,73 @@
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 641,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 425,
+      "value": "\"var meta = document.createElement('meta');\nmeta.name = 'viewport';\nmeta.content = 'width=\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 1,
+      "value": "\", initial-scale=1.0, shrink-to-fit=yes';\ndocument.head.appendChild(meta);\ndocument.body.style.margin = '0';\ndocument.body.style.padding = '0';\ndocument.body.style.overflow = 'hidden';\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 696,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 1192,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1384,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1529,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1584,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 2303,
       "length": 39,
       "value": "\"data:text\/html;base64,\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 1569,
+      "offset": 2341,
       "length": 1,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2694,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2700,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialAd.swift",
@@ -10576,6 +10628,69 @@
       "offset": 586,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 794,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 840,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 881,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 927,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1020,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14254,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14301,
+      "length": 8,
+      "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
@@ -10603,6 +10718,111 @@
       "kind": "Array",
       "offset": 1421,
       "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "Array",
+      "offset": 853,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "Array",
+      "offset": 899,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "Dictionary",
+      "offset": 955,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1023,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1145,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
+      "kind": "Dictionary",
+      "offset": 1863,
+      "length": 3,
       "value": "[]"
     },
     {
@@ -11084,105 +11304,210 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1117,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1157,
+      "length": 18,
+      "value": "\"ad_render_config\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
       "length": 10,
       "value": "\"dest_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1253,
       "length": 12,
       "value": "\"main_image\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1325,
+      "length": 10,
+      "value": "\"vast_tag\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1381,
       "length": 14,
       "value": "\"dsp_branding\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2981,
+      "offset": 3442,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2998,
+      "offset": 3459,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 3263,
+      "offset": 3724,
       "length": 5,
       "value": "\"imp\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "Array",
-      "offset": 3617,
+      "offset": 4078,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "Array",
-      "offset": 3644,
+      "offset": 4105,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 4441,
+      "length": 11,
+      "value": "\"ui_config\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4476,
+      "length": 10,
+      "value": "\"end_card\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5008,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5034,
+      "length": 10,
+      "value": "\"portrait\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5486,
+      "length": 19,
+      "value": "\"show_close_button\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5538,
+      "length": 20,
+      "value": "\"close_button_delay\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5588,
+      "length": 16,
+      "value": "\"show_countdown\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5636,
+      "length": 18,
+      "value": "\"force_fullscreen\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6214,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6269,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6802,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7120,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 4073,
+      "offset": 7201,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 4092,
+      "offset": 7220,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 4115,
+      "offset": 7243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 7266,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 4160,
+      "offset": 7288,
       "length": 2,
       "value": "\"\""
     },
@@ -11245,7 +11570,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 1692,
+      "offset": 2140,
       "length": 2,
       "value": "\"\""
     },
@@ -11486,6 +11811,48 @@
       "offset": 6219,
       "length": 2,
       "value": "59"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 620,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 661,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 5,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 746,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 64,
+      "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 14,
+      "value": "\"RemoteConfig\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/MediationNativeAdView.swift",
