@@ -391,6 +391,24 @@
       },
       {
         "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -11199,30 +11217,37 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5244,
+      "offset": 4450,
       "length": 14,
       "value": "\"placement_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5285,
+      "offset": 4491,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5333,
+      "offset": 4539,
       "length": 29,
       "value": "\"yield_group_bid_price_range\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5390,
+      "offset": 4596,
       "length": 11,
       "value": "\"parameter\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/MediationAdapterVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 7,
+      "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/database\/SQLiteDatabase.swift",
@@ -11962,28 +11987,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15984,
+      "offset": 16802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20846,
+      "offset": 22073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21032,
+      "offset": 22259,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 52508,
+      "offset": 55189,
       "length": 5,
       "value": "false"
     },
