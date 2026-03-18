@@ -9,6 +9,7 @@ import Compression
 import Foundation
 import Network
 import SQLite3
+import SafariServices
 import Swift
 import UIKit
 import _Concurrency
@@ -209,6 +210,7 @@ public protocol MediationNativeAd : AdsFramework.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
   var landingUrl: Swift.String? { get }
   #endif
+  var openUrlInApp: Swift.Bool { get }
   #if compiler(>=5.3) && $NonescapableTypes
   var starRating: Swift.Double? { get }
   #endif
