@@ -57,6 +57,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -387,6 +407,33 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -447,6 +494,26 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -3146,6 +3213,149 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MediationAppOpenAdEventDelegate",
+        "printedName": "MediationAppOpenAdEventDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "recordAppOpenClick",
+            "printedName": "recordAppOpenClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP06recorddE5ClickyyF",
+            "mangledName": "$s12AdsFramework31MediationAppOpenAdEventDelegateP06recorddE5ClickyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordAppOpenImpression",
+            "printedName": "recordAppOpenImpression()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP06recorddE10ImpressionyyF",
+            "mangledName": "$s12AdsFramework31MediationAppOpenAdEventDelegateP06recorddE10ImpressionyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdError",
+                "printedName": "AdsFramework.AdError",
+                "usr": "s:12AdsFramework7AdErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP2ad42didFailToPresentFullScreenContentWithErroryAA0fR0V_tF",
+            "mangledName": "$s12AdsFramework31MediationAppOpenAdEventDelegateP2ad42didFailToPresentFullScreenContentWithErroryAA0fR0V_tF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP30adWillPresentFullScreenContentyyF",
+            "mangledName": "$s12AdsFramework31MediationAppOpenAdEventDelegateP30adWillPresentFullScreenContentyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP29adDidDismissFullScreenContentyyF",
+            "mangledName": "$s12AdsFramework31MediationAppOpenAdEventDelegateP29adDidDismissFullScreenContentyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP",
+        "mangledName": "$s12AdsFramework31MediationAppOpenAdEventDelegateP",
+        "moduleName": "AdsFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MediationRewardedInterstitialAdEventDelegate",
         "printedName": "MediationRewardedInterstitialAdEventDelegate",
         "children": [
@@ -4619,6 +4829,33 @@
             "declKind": "Func",
             "usr": "s:12AdsFramework19MediationAdDelegateP014onCustomNativeD6Loaded06customhD0yAA0chg6FormatD0_p_tF",
             "mangledName": "$s12AdsFramework19MediationAdDelegateP014onCustomNativeD6Loaded06customhD0yAA0chg6FormatD0_p_tF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAdDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAppOpenAdLoaded",
+            "printedName": "onAppOpenAdLoaded(appOpenAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationAppOpenAd",
+                "printedName": "any AdsFramework.MediationAppOpenAd",
+                "usr": "s:12AdsFramework18MediationAppOpenAdP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19MediationAdDelegateP09onAppOpenD6Loaded03apphD0yAA0cghD0_p_tF",
+            "mangledName": "$s12AdsFramework19MediationAdDelegateP09onAppOpenD6Loaded03apphD0yAA0cghD0_p_tF",
             "moduleName": "AdsFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdsFramework.MediationAdDelegate>",
@@ -7630,6 +7867,195 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MediationAppOpenAd",
+        "printedName": "MediationAppOpenAd",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentAppOpenAd",
+            "printedName": "presentAppOpenAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework18MediationAppOpenAdP07presentdeF04fromySo16UIViewControllerCSg_tF",
+            "mangledName": "$s12AdsFramework18MediationAppOpenAdP07presentdeF04fromySo16UIViewControllerCSg_tF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAd>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAd>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "eventDelegate",
+            "printedName": "eventDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdsFramework.MediationAppOpenAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationAppOpenAdEventDelegate",
+                    "printedName": "any AdsFramework.MediationAppOpenAdEventDelegate",
+                    "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvp",
+            "mangledName": "$s12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdsFramework.MediationAppOpenAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationAppOpenAdEventDelegate",
+                        "printedName": "any AdsFramework.MediationAppOpenAdEventDelegate",
+                        "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvg",
+                "mangledName": "$s12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdsFramework.MediationAppOpenAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationAppOpenAdEventDelegate",
+                        "printedName": "any AdsFramework.MediationAppOpenAdEventDelegate",
+                        "usr": "s:12AdsFramework31MediationAppOpenAdEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvs",
+                "mangledName": "$s12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvs",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvM",
+                "mangledName": "$s12AdsFramework18MediationAppOpenAdP13eventDelegateAA0cdef5EventH0_pSgvM",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationAppOpenAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationAppOpenAd>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12AdsFramework18MediationAppOpenAdP",
+        "mangledName": "$s12AdsFramework18MediationAppOpenAdP",
+        "moduleName": "AdsFramework",
+        "genericSig": "<τ_0_0 : AdsFramework.Ad>",
+        "sugared_genericSig": "<Self : AdsFramework.Ad>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Ad",
+            "printedName": "Ad",
+            "usr": "s:12AdsFramework2AdP",
+            "mangledName": "$s12AdsFramework2AdP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -10564,6 +10990,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 658,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobBannerAd.swift",
       "kind": "IntegerLiteral",
       "offset": 963,
@@ -11301,28 +11734,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4454,
+      "offset": 4956,
       "length": 14,
       "value": "\"placement_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4495,
+      "offset": 4997,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4543,
+      "offset": 5045,
       "length": 29,
       "value": "\"yield_group_bid_price_range\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4600,
+      "offset": 5102,
       "length": 11,
       "value": "\"parameter\""
     },
@@ -11386,6 +11819,13 @@
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMAdapter.swift",
       "kind": "Dictionary",
       "offset": 758,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 845,
       "length": 3,
       "value": "[]"
     },
@@ -12008,21 +12448,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3901,
+      "offset": 4161,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3969,
+      "offset": 4229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 3998,
+      "offset": 4258,
       "length": 3,
       "value": "0.0"
     },
@@ -12085,21 +12525,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20846,
+      "offset": 20972,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21032,
+      "offset": 21158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 52508,
+      "offset": 55363,
       "length": 5,
       "value": "false"
     },

@@ -99,6 +99,13 @@ public protocol MediationRewardedAdEventDelegate : AnyObject {
   func didEndVideo()
   func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
 }
+public protocol MediationAppOpenAdEventDelegate : AnyObject {
+  func recordAppOpenClick()
+  func recordAppOpenImpression()
+  func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
+  func adWillPresentFullScreenContent()
+  func adDidDismissFullScreenContent()
+}
 public protocol MediationRewardedInterstitialAdEventDelegate : AnyObject {
   func recordRewardedInterstitialClick()
   func recordRewardedInterstitialImpression()
@@ -145,6 +152,7 @@ public protocol MediationAdDelegate : AnyObject {
   func onRewardedInterstitialAdLoaded(rewardedInterstitialAd: any AdsFramework.MediationRewardedInterstitialAd)
   func onNativeAdLoaded(nativeAd: any AdsFramework.MediationNativeAd)
   func onCustomNativeAdLoaded(customNativeAd: any AdsFramework.MediationNativeCustomFormatAd)
+  func onAppOpenAdLoaded(appOpenAd: any AdsFramework.MediationAppOpenAd)
   func onAdFailedToLoad(error: AdsFramework.AdError)
 }
 public protocol Ad : AnyObject {
@@ -261,6 +269,14 @@ public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
   func performClick(on assetName: Swift.String)
   func recordNativeImpression()
   func destroy()
+}
+public protocol MediationAppOpenAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func presentAppOpenAd(from viewController: UIKit.UIViewController?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationAppOpenAdEventDelegate)? { get set }
+  #endif
 }
 #if compiler(>=5.3) && $NonescapableTypes
 public func anyToInt(_ value: Any?) -> Swift.Int?
