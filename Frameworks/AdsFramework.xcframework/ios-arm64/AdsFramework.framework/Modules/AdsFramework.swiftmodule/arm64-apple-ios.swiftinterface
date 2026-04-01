@@ -98,6 +98,8 @@ public protocol MediationRewardedAdEventDelegate : AnyObject {
   func didStartVideo()
   func didEndVideo()
   func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
+  func adWillPresentFullScreenContent()
+  func adDidDismissFullScreenContent()
 }
 public protocol MediationAppOpenAdEventDelegate : AnyObject {
   func recordAppOpenClick()
@@ -113,6 +115,8 @@ public protocol MediationRewardedInterstitialAdEventDelegate : AnyObject {
   func didStartVideo()
   func didEndVideo()
   func ad(didFailToPresentFullScreenContentWithError error: AdsFramework.AdError)
+  func adWillPresentFullScreenContent()
+  func adDidDismissFullScreenContent()
 }
 public struct MediationAdEventCallbacks {
   public var onClick: (() -> Swift.Void)?
