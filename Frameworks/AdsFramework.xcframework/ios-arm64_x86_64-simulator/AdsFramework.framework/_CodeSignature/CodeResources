@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		byvaQNaW0nDs6Y2AZCOuG4guM2g=
+		cyo2m66YrqabR/JMMTuEM2dylSQ=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JNK2vCxV77UuUtvnJtOqws9Gj/c=
+		WJgEFyvN+/Sb3z648hPBSxmHmuM=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oQTlc9hvw4PIwR2Du1FFNf5RrmY=
+		+Quq2H75mU18Vjl52qicGubIJac=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JNK2vCxV77UuUtvnJtOqws9Gj/c=
+		WJgEFyvN+/Sb3z648hPBSxmHmuM=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RNxa/od0lSkUwSjH0XOcl0rITEI=
+		zPL/ZTDgk3DTWsgzx3up1bO8xEo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wL2Tag8EuaEvhAtLEV8Dn6upuybpWGcyQ6dZDZDTgVk=
+			z/mjXfh5EXZir3Qr6ZImg54vSaTiiFOcFYdjFTMUtPs=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sthb9oUVak3WBWbwgTXjrAxoaLlcOOD7nPnwnr68L/M=
+			O8feO1yU+wWaaO35URbWZtY3H1ZbDO3EDoWEJCldqLA=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wL2Tag8EuaEvhAtLEV8Dn6upuybpWGcyQ6dZDZDTgVk=
+			z/mjXfh5EXZir3Qr6ZImg54vSaTiiFOcFYdjFTMUtPs=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+oKqyKSufk1CnNLF6im25jgH5uYzUSrONL1odOn9IQ=
+			Z7Wm/6hLydhDHA1UKp7+q7FO1XdWJdHNgy0vX/KN27I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
