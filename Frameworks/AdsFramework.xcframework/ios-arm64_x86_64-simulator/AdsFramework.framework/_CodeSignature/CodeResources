@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cyo2m66YrqabR/JMMTuEM2dylSQ=
+		3i/EggtQaf8vRtTEyjpPldeV+mc=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WJgEFyvN+/Sb3z648hPBSxmHmuM=
+		JNK2vCxV77UuUtvnJtOqws9Gj/c=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Quq2H75mU18Vjl52qicGubIJac=
+		oQTlc9hvw4PIwR2Du1FFNf5RrmY=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WJgEFyvN+/Sb3z648hPBSxmHmuM=
+		JNK2vCxV77UuUtvnJtOqws9Gj/c=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zPL/ZTDgk3DTWsgzx3up1bO8xEo=
+		RNxa/od0lSkUwSjH0XOcl0rITEI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z/mjXfh5EXZir3Qr6ZImg54vSaTiiFOcFYdjFTMUtPs=
+			wL2Tag8EuaEvhAtLEV8Dn6upuybpWGcyQ6dZDZDTgVk=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O8feO1yU+wWaaO35URbWZtY3H1ZbDO3EDoWEJCldqLA=
+			Sthb9oUVak3WBWbwgTXjrAxoaLlcOOD7nPnwnr68L/M=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z/mjXfh5EXZir3Qr6ZImg54vSaTiiFOcFYdjFTMUtPs=
+			wL2Tag8EuaEvhAtLEV8Dn6upuybpWGcyQ6dZDZDTgVk=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z7Wm/6hLydhDHA1UKp7+q7FO1XdWJdHNgy0vX/KN27I=
+			T+oKqyKSufk1CnNLF6im25jgH5uYzUSrONL1odOn9IQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
