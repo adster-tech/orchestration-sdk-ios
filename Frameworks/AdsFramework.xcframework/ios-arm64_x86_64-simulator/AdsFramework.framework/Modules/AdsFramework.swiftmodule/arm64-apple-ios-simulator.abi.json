@@ -309,16 +309,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -673,16 +663,6 @@
         "moduleName": "AdsFramework",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -4209,16 +4189,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -10436,167 +10406,6 @@
         "funcSelfKind": "NonMutating"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdsFramework"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdsFrameworkVersion",
-        "printedName": "AdsFrameworkVersion",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "current",
-            "printedName": "current",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12AdsFramework0aB7VersionO7currentSSvpZ",
-            "mangledName": "$s12AdsFramework0aB7VersionO7currentSSvpZ",
-            "moduleName": "AdsFramework",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AdsFramework0aB7VersionO7currentSSvgZ",
-                "mangledName": "$s12AdsFramework0aB7VersionO7currentSSvgZ",
-                "moduleName": "AdsFramework",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12AdsFramework0aB7VersionO",
-        "mangledName": "$s12AdsFramework0aB7VersionO",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdsFrameworkResources",
-        "printedName": "AdsFrameworkResources",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "bundle",
-            "printedName": "bundle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12AdsFramework0aB9ResourcesO6bundleSo8NSBundleCvpZ",
-            "mangledName": "$s12AdsFramework0aB9ResourcesO6bundleSo8NSBundleCvpZ",
-            "moduleName": "AdsFramework",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AdsFramework0aB9ResourcesO6bundleSo8NSBundleCvgZ",
-                "mangledName": "$s12AdsFramework0aB9ResourcesO6bundleSo8NSBundleCvgZ",
-                "moduleName": "AdsFramework",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12AdsFramework0aB9ResourcesO",
-        "mangledName": "$s12AdsFramework0aB9ResourcesO",
-        "moduleName": "AdsFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "String",
         "printedName": "String",
@@ -11337,77 +11146,105 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 706,
-      "length": 425,
+      "offset": 1064,
+      "length": 964,
       "value": "\"var meta = document.createElement('meta');\nmeta.name = 'viewport';\nmeta.content = 'width=\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 864,
+      "offset": 1222,
       "length": 1,
-      "value": "\", initial-scale=1.0, shrink-to-fit=yes';\ndocument.head.appendChild(meta);\ndocument.body.style.margin = '0';\ndocument.body.style.padding = '0';\ndocument.body.style.overflow = 'hidden';\""
+      "value": "\", initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=yes';\ndocument.head.appendChild(meta);\ndocument.body.style.margin = '0';\ndocument.body.style.padding = '0';\ndocument.body.style.overflow = 'hidden';\nvar noDragStyle = document.createElement('style');\nnoDragStyle.innerHTML = '*, *::before, *::after { -webkit-touch-callout: none !important; -webkit-user-select: none !important; user-select: none !important; -webkit-user-drag: none !important; } a, img { -webkit-user-drag: none !important; }';\ndocument.head.appendChild(noDragStyle);\ndocument.addEventListener('dragstart', function(e) { e.preventDefault(); }, true);\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1214,
+      "offset": 2111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1406,
+      "offset": 2303,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1551,
+      "offset": 2448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1606,
+      "offset": 2503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2916,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2972,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3026,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2325,
+      "offset": 4129,
       "length": 39,
       "value": "\"data:text\/html;base64,\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 4167,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2716,
+      "offset": 4520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2722,
+      "offset": 4526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5888,
+      "offset": 8712,
       "length": 5,
       "value": "false"
     },
@@ -11477,28 +11314,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14592,
+      "offset": 17763,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14614,
+      "offset": 17785,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14639,
+      "offset": 17810,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterInterstitialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14745,
+      "offset": 17916,
       "length": 5,
       "value": "false"
     },
@@ -12387,14 +12224,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Preload.swift",
       "kind": "StringLiteral",
-      "offset": 669,
+      "offset": 650,
       "length": 35,
       "value": "\"perloadAdExperimentCoolDownPeriod\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/preload\/Preload.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 729,
       "length": 27,
       "value": "\"preloadAdOnInitExperiment\""
     },
@@ -12744,14 +12581,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdMetaDataStore.swift",
       "kind": "Dictionary",
-      "offset": 229,
+      "offset": 210,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdMetaDataStore.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 259,
       "length": 22,
       "value": "\"AdMetadataStoreQueue\""
     },
@@ -12821,7 +12658,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 903,
+      "offset": 1036,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
@@ -12894,20 +12731,6 @@
       "offset": 2361,
       "length": 5,
       "value": "\" | \""
-    },
-    {
-      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/SDKMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 85,
-      "length": 7,
-      "value": "\"1.4.3\""
-    },
-    {
-      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/SDKMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 154,
-      "length": 3,
-      "value": "\"0\""
     }
   ]
 }

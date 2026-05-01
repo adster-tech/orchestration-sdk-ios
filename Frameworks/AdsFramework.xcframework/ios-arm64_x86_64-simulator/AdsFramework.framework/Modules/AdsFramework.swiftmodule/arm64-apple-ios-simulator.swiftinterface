@@ -374,12 +374,6 @@ public func runAfterTime(time: Swift.Double, block: @escaping () -> ())
 #if compiler(>=5.3) && $NonescapableTypes
 public func fetchIDFA() -> Swift.String?
 #endif
-public enum AdsFrameworkVersion {
-  public static let current: Swift.String
-}
-public enum AdsFrameworkResources {
-  public static let bundle: Foundation.Bundle
-}
 extension AdsFramework.AdSterAdType : Swift.Equatable {}
 extension AdsFramework.AdSterAdType : Swift.Hashable {}
 extension AdsFramework.AdSterAdType : Swift.RawRepresentable {}
