@@ -11321,14 +11321,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 3795,
+      "offset": 3872,
       "length": 35,
       "value": "\"https:\/\/adreq.adster.tech\/v1\/rapi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 3870,
+      "offset": 3947,
       "length": 10,
       "value": "\"\/v1\/rapi\""
     },
@@ -11594,9 +11594,9 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterRequestHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1114,
-      "length": 23,
-      "value": "\"publisher_provided_id\""
+      "offset": 1498,
+      "length": 6,
+      "value": "\"ppid\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/VASTParser.swift",
@@ -12420,7 +12420,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/Network.swift",
       "kind": "StringLiteral",
-      "offset": 3438,
+      "offset": 4040,
       "length": 11,
       "value": "\"analytics\""
     },
@@ -12833,21 +12833,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4163,
+      "offset": 4168,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4231,
+      "offset": 4236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 4260,
+      "offset": 4265,
       "length": 3,
       "value": "0.0"
     },

@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YLYLimBfGgugd1sHjsv/Buz8L6Q=
+		QlD5OAbKjW6pGSmtwW+6UMVit+k=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DdY9xGwAwj40ajPhFqxb2K4OlSI=
+		allo9qNvLvciMSBaGRbRRVyIAXI=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ECdSjie3uQneOQpQY6TVs1AGBIE=
+		7o5JYPFZGyLvBmizpeyH5xi4XeY=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DdY9xGwAwj40ajPhFqxb2K4OlSI=
+		allo9qNvLvciMSBaGRbRRVyIAXI=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bNbVvrL2HRmWShJ/eiKkrptr9OY=
+		agZ1dc6VoyYuweWhOdAr86wnbi0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GsA33IgbrfW9aGTvjXIzEw3C0vCTfPcfcicmEgI1XeU=
+			AvRAmbO1UzL+c1CEdkEQ7DgTB263+jQIqoS6ab2re/o=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c9JBIYJQcIz+Fg0nX+uyCNnIq63SyKbZGZuAi6+FdTI=
+			0HV8PUL33p+gUihSkYSOoGLvWK+voztbNm5aFTmdjQM=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GsA33IgbrfW9aGTvjXIzEw3C0vCTfPcfcicmEgI1XeU=
+			AvRAmbO1UzL+c1CEdkEQ7DgTB263+jQIqoS6ab2re/o=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xlZ15tqS5IcXpdLE+sXpi8kcT+RWRNZOsz8763Q7yo=
+			XT/eyzwbyL0Jetz5kZ3nqAGvQ47bjFLdARcrCNJ2wh4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
