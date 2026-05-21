@@ -7,6 +7,7 @@ import AVFoundation
 import AppTrackingTransparency
 import Compression
 import Foundation
+import GoogleMobileAds
 import Network
 import SQLite3
 import SafariServices
@@ -283,6 +284,17 @@ public protocol MediationAppOpenAd : AdsFramework.Ad {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var eventDelegate: (any AdsFramework.MediationAppOpenAdEventDelegate)? { get set }
+  #endif
+}
+public protocol MediationNativeCustomFormatAdGAM {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getMediaContent() -> GoogleMobileAds.MediaContent?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getImage(for assetName: Swift.String) -> GoogleMobileAds.NativeAdImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getDisplayOpenMeasurement() -> GoogleMobileAds.DisplayAdMeasurement?
   #endif
 }
 #if compiler(>=5.3) && $NonescapableTypes

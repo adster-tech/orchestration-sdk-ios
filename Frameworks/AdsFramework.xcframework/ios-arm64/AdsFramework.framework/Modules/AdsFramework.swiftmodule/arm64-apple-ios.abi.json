@@ -8305,6 +8305,132 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MediationNativeCustomFormatAdGAM",
+        "printedName": "MediationNativeCustomFormatAdGAM",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getMediaContent",
+            "printedName": "getMediaContent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.MediaContent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediaContent",
+                    "printedName": "GoogleMobileAds.MediaContent",
+                    "usr": "c:objc(cs)GADMediaContent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework32MediationNativeCustomFormatAdGAMP15getMediaContentSo08GADMediaK0CSgyF",
+            "mangledName": "$s12AdsFramework32MediationNativeCustomFormatAdGAMP15getMediaContentSo08GADMediaK0CSgyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeCustomFormatAdGAM>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeCustomFormatAdGAM>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getImage",
+            "printedName": "getImage(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.NativeAdImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdImage",
+                    "printedName": "GoogleMobileAds.NativeAdImage",
+                    "usr": "c:objc(cs)GADNativeAdImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework32MediationNativeCustomFormatAdGAMP8getImage3forSo09GADNativegJ0CSgSS_tF",
+            "mangledName": "$s12AdsFramework32MediationNativeCustomFormatAdGAMP8getImage3forSo09GADNativegJ0CSgSS_tF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeCustomFormatAdGAM>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeCustomFormatAdGAM>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDisplayOpenMeasurement",
+            "printedName": "getDisplayOpenMeasurement()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.DisplayAdMeasurement?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisplayAdMeasurement",
+                    "printedName": "GoogleMobileAds.DisplayAdMeasurement",
+                    "usr": "c:objc(cs)GADDisplayAdMeasurement"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework32MediationNativeCustomFormatAdGAMP25getDisplayOpenMeasurementSo010GADDisplaygL0CSgyF",
+            "mangledName": "$s12AdsFramework32MediationNativeCustomFormatAdGAMP25getDisplayOpenMeasurementSo010GADDisplaygL0CSgyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeCustomFormatAdGAM>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeCustomFormatAdGAM>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12AdsFramework32MediationNativeCustomFormatAdGAMP",
+        "mangledName": "$s12AdsFramework32MediationNativeCustomFormatAdGAMP",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
