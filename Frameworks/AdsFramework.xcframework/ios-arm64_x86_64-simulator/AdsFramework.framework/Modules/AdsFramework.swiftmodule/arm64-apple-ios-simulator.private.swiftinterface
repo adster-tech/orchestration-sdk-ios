@@ -20,6 +20,8 @@ import zlib
 public enum AdSterAdType : Swift.String, Swift.Codable {
   case native
   case banner
+  case carouselBanner
+  case carouselNative
   case interstitial
   case rewarded
   case rewarded_inter
@@ -40,6 +42,7 @@ public enum SDK : Swift.String, Swift.Codable {
   case admob
   case gam
   case adster
+  case adsterDirect
   case liftoff
   case jio
   case inmobi
@@ -119,11 +122,23 @@ public protocol MediationRewardedInterstitialAdEventDelegate : AnyObject {
   func adWillPresentFullScreenContent()
   func adDidDismissFullScreenContent()
 }
+public enum PrecisionType : Swift.Equatable {
+  case unknown
+  case estimated
+  case publisherProvided
+  case precise
+  public static func == (a: AdsFramework.PrecisionType, b: AdsFramework.PrecisionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct MediationAdEventCallbacks {
   public var onClick: (() -> Swift.Void)?
   public var onImpression: (() -> Swift.Void)?
+  public var onRevenuePaid: ((_ revenue: Swift.Double, _ adUnitId: Swift.String, _ network: Swift.String, _ currency: Swift.String, _ precisionType: AdsFramework.PrecisionType) -> Swift.Void)?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil)
+  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil, onRevenuePaid: ((_ revenue: Swift.Double, _ adUnitId: Swift.String, _ network: Swift.String, _ currency: Swift.String, _ precisionType: AdsFramework.PrecisionType) -> Swift.Void)? = nil)
   #endif
 }
 public struct AdReward {
@@ -155,12 +170,15 @@ public struct AdRequestConfiguration {
 }
 public protocol MediationAdDelegate : AnyObject {
   func onBannerAdLoaded(bannerAd: any AdsFramework.MediationBannerAd)
+  func onCarouselBannerAdLoaded(carouselBannerAd: any AdsFramework.MediationCarouselBannerAd)
   func onInterstitialAdLoaded(interstitialAd: any AdsFramework.MediationInterstitialAd)
   func onRewardedAdLoaded(rewardedAd: any AdsFramework.MediationRewardedAd)
   func onRewardedInterstitialAdLoaded(rewardedInterstitialAd: any AdsFramework.MediationRewardedInterstitialAd)
   func onNativeAdLoaded(nativeAd: any AdsFramework.MediationNativeAd)
+  func onCarouselNativeAdLoaded(carouselNativeAd: any AdsFramework.MediationCarouselNativeAd)
   func onCustomNativeAdLoaded(customNativeAd: any AdsFramework.MediationNativeCustomFormatAd)
   func onAppOpenAdLoaded(appOpenAd: any AdsFramework.MediationAppOpenAd)
+  func onAdRevenuePaid(revenue: Swift.Double, adUnitId: Swift.String, network: Swift.String, currency: Swift.String, precisionType: AdsFramework.PrecisionType)
   func onAdFailedToLoad(error: AdsFramework.AdError)
 }
 public protocol Ad : AnyObject {
@@ -182,6 +200,12 @@ public protocol MediationBannerAd : AdsFramework.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
   var eventDelegate: (any AdsFramework.MediationBannerAdEventDelegate)? { get set }
   #endif
+}
+public protocol MediationCarouselBannerAd : AdsFramework.Ad {
+  var ads: [any AdsFramework.MediationBannerAd] { get }
+}
+public protocol MediationCarouselNativeAd : AdsFramework.Ad {
+  var ads: [any AdsFramework.MediationNativeAd] { get }
 }
 public protocol MediationInterstitialAd : AdsFramework.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -395,6 +419,7 @@ extension AdsFramework.AdSterAdType : Swift.RawRepresentable {}
 extension AdsFramework.SDK : Swift.Equatable {}
 extension AdsFramework.SDK : Swift.Hashable {}
 extension AdsFramework.SDK : Swift.RawRepresentable {}
+extension AdsFramework.PrecisionType : Swift.Hashable {}
 extension AdsFramework.AdEnvironment : Swift.Equatable {}
 extension AdsFramework.AdEnvironment : Swift.Hashable {}
 extension AdsFramework.AdSDK : Swift.Equatable {}
