@@ -87,6 +87,10 @@ public protocol MediationNativeAdEventDelegate : AnyObject {
 public protocol MediationNativeCustomAdEventDelegate : AnyObject {
   func recordNativeCustomClick()
   func recordNativeCustomImpression()
+  func recordNativeCustomClick(ad: any AdsFramework.MediationNativeCustomFormatAd, assetName: Swift.String)
+}
+extension AdsFramework.MediationNativeCustomAdEventDelegate {
+  public func recordNativeCustomClick(ad: any AdsFramework.MediationNativeCustomFormatAd, assetName: Swift.String)
 }
 public protocol MediationInterstitialAdEventDelegate : AnyObject {
   func recordInterstitialClick()
@@ -137,8 +141,9 @@ public struct MediationAdEventCallbacks {
   public var onClick: (() -> Swift.Void)?
   public var onImpression: (() -> Swift.Void)?
   public var onRevenuePaid: ((_ revenue: Swift.Double, _ adUnitId: Swift.String, _ network: Swift.String, _ currency: Swift.String, _ precisionType: AdsFramework.PrecisionType) -> Swift.Void)?
+  public var onCustomNativeClick: ((_ assetName: Swift.String) -> Swift.Void)?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil, onRevenuePaid: ((_ revenue: Swift.Double, _ adUnitId: Swift.String, _ network: Swift.String, _ currency: Swift.String, _ precisionType: AdsFramework.PrecisionType) -> Swift.Void)? = nil)
+  public init(onClick: (() -> Swift.Void)? = nil, onImpression: (() -> Swift.Void)? = nil, onRevenuePaid: ((_ revenue: Swift.Double, _ adUnitId: Swift.String, _ network: Swift.String, _ currency: Swift.String, _ precisionType: AdsFramework.PrecisionType) -> Swift.Void)? = nil, onCustomNativeClick: ((_ assetName: Swift.String) -> Swift.Void)? = nil)
   #endif
 }
 public struct AdReward {

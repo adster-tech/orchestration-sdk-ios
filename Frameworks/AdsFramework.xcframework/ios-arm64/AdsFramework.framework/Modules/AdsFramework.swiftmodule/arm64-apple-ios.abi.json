@@ -3031,6 +3031,77 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeCustomClick",
+            "printedName": "recordNativeCustomClick(ad:assetName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeCustomFormatAd",
+                "printedName": "any AdsFramework.MediationNativeCustomFormatAd",
+                "usr": "s:12AdsFramework29MediationNativeCustomFormatAdP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework36MediationNativeCustomAdEventDelegateP06recorddE5Click2ad9assetNameyAA0cde6FormatF0_p_SStF",
+            "mangledName": "$s12AdsFramework36MediationNativeCustomAdEventDelegateP06recorddE5Click2ad9assetNameyAA0cde6FormatF0_p_SStF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeCustomAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeCustomAdEventDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeCustomClick",
+            "printedName": "recordNativeCustomClick(ad:assetName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeCustomFormatAd",
+                "printedName": "any AdsFramework.MediationNativeCustomFormatAd",
+                "usr": "s:12AdsFramework29MediationNativeCustomFormatAdP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework36MediationNativeCustomAdEventDelegatePAAE06recorddE5Click2ad9assetNameyAA0cde6FormatF0_p_SStF",
+            "mangledName": "$s12AdsFramework36MediationNativeCustomAdEventDelegatePAAE06recorddE5Click2ad9assetNameyAA0cde6FormatF0_p_SStF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeCustomAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeCustomAdEventDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -4588,9 +4659,156 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onCustomNativeClick",
+            "printedName": "onCustomNativeClick",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvp",
+            "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvg",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvs",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvs",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvM",
+                "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV19onCustomNativeClickySScSgvM",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onClick:onImpression:onRevenuePaid:)",
+            "printedName": "init(onClick:onImpression:onRevenuePaid:onCustomNativeClick:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4707,11 +4925,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClick0G10Impression0G11RevenuePaidACyycSg_AGySd_S3SAA13PrecisionTypeOtcSgtcfc",
-            "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClick0G10Impression0G11RevenuePaidACyycSg_AGySd_S3SAA13PrecisionTypeOtcSgtcfc",
+            "usr": "s:12AdsFramework25MediationAdEventCallbacksV7onClick0G10Impression0G11RevenuePaid0g12CustomNativeH0ACyycSg_AHySd_S3SAA13PrecisionTypeOtcSgySScSgtcfc",
+            "mangledName": "$s12AdsFramework25MediationAdEventCallbacksV7onClick0G10Impression0G11RevenuePaid0g12CustomNativeH0ACyycSg_AHySd_S3SAA13PrecisionTypeOtcSgySScSgtcfc",
             "moduleName": "AdsFramework",
             "declAttributes": [
               "AccessControl"
@@ -13949,7 +14194,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 9425,
+      "offset": 9895,
       "length": 2,
       "value": "59"
     },
@@ -14067,24 +14312,38 @@
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5614,
+      "offset": 5655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5684,
+      "offset": 5725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 5714,
+      "offset": 5755,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5795,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdMetaDataStore.swift",
@@ -14145,21 +14404,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25518,
+      "offset": 26449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25704,
+      "offset": 26635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 65864,
+      "offset": 66795,
       "length": 5,
       "value": "false"
     },
