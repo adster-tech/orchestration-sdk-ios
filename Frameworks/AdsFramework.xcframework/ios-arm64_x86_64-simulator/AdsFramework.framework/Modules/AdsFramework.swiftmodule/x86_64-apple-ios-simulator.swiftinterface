@@ -17,6 +17,16 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
+public struct DSPBranding : Swift.Codable {
+  public let partner: Swift.String
+  public let text: Swift.String
+  public let imageUrl: Swift.String
+  public let position: Swift.String
+  public let landing: Swift.String
+  public init(partner: Swift.String = "", text: Swift.String = "", imageUrl: Swift.String = "", position: Swift.String = "", landing: Swift.String = "")
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum AdSterAdType : Swift.String, Swift.Codable {
   case native
   case banner
@@ -29,6 +39,7 @@ public enum AdSterAdType : Swift.String, Swift.Codable {
   case unifiedAoi
   case unified
   case nativeCustom
+  case nativeReward
   case video
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
@@ -67,6 +78,22 @@ public enum SDK : Swift.String, Swift.Codable {
   @_Concurrency.MainActor @preconcurrency public func setNativeAd(nativeAd: any AdsFramework.MediationNativeAd)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MediationNativeRewardAdView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency weak public var headlineView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak public var mediaView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak public var ctaView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak public var bodyView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak public var logoView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak public var advertiserView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency weak public var ratingBarView: UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency public func setNativeRewardAd(nativeRewardAd: any AdsFramework.MediationNativeRewardAd)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
 public struct AdapterStatus {
 }
 public struct AdError : Swift.Error {
@@ -83,6 +110,10 @@ public protocol MediationBannerAdEventDelegate : AnyObject {
 public protocol MediationNativeAdEventDelegate : AnyObject {
   func recordNativeClick()
   func recordNativeImpression()
+}
+public protocol MediationNativeRewardAdEventDelegate : AnyObject {
+  func recordNativeRewardClick()
+  func recordNativeRewardImpression()
 }
 public protocol MediationNativeCustomAdEventDelegate : AnyObject {
   func recordNativeCustomClick()
@@ -180,11 +211,46 @@ public protocol MediationAdDelegate : AnyObject {
   func onRewardedAdLoaded(rewardedAd: any AdsFramework.MediationRewardedAd)
   func onRewardedInterstitialAdLoaded(rewardedInterstitialAd: any AdsFramework.MediationRewardedInterstitialAd)
   func onNativeAdLoaded(nativeAd: any AdsFramework.MediationNativeAd)
+  func onNativeRewardAdLoaded(nativeRewardAd: any AdsFramework.MediationNativeRewardAd)
   func onCarouselNativeAdLoaded(carouselNativeAd: any AdsFramework.MediationCarouselNativeAd)
   func onCustomNativeAdLoaded(customNativeAd: any AdsFramework.MediationNativeCustomFormatAd)
   func onAppOpenAdLoaded(appOpenAd: any AdsFramework.MediationAppOpenAd)
   func onAdRevenuePaid(revenue: Swift.Double, adUnitId: Swift.String, network: Swift.String, currency: Swift.String, precisionType: AdsFramework.PrecisionType)
   func onAdFailedToLoad(error: AdsFramework.AdError)
+}
+public struct NativeReward : Swift.Codable {
+  public let id: Swift.String?
+  public let type: Swift.String?
+  public let entity: Swift.String?
+  public let coupon: AdsFramework.NativeRewardCoupon?
+  public let brand: AdsFramework.NativeRewardBrand?
+  public let description: Swift.String?
+  public let tnc: Swift.String?
+  public let redemptionInstructions: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.String? = nil, type: Swift.String? = nil, entity: Swift.String? = nil, coupon: AdsFramework.NativeRewardCoupon? = nil, brand: AdsFramework.NativeRewardBrand? = nil, description: Swift.String? = nil, tnc: Swift.String? = nil, redemptionInstructions: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct NativeRewardCoupon : Swift.Codable {
+  public let code: Swift.String?
+  public let expiresAt: Swift.Int64?
+  public let redemptionUrl: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(code: Swift.String? = nil, expiresAt: Swift.Int64? = nil, redemptionUrl: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct NativeRewardBrand : Swift.Codable {
+  public let displayName: Swift.String?
+  public let logoUrl: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(displayName: Swift.String? = nil, logoUrl: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol Ad : AnyObject {
   var adType: AdsFramework.AdSterAdType { get }
@@ -278,6 +344,56 @@ public protocol MediationNativeAd : AdsFramework.Ad {
   #endif
   func recordNativeClick()
   func recordNativeImpression()
+}
+public protocol MediationNativeRewardAd : AdsFramework.Ad {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var eventDelegate: (any AdsFramework.MediationNativeRewardAdEventDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var headline: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var callToAction: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var icon: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var logo: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var body: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var landingUrl: Swift.String? { get }
+  #endif
+  var openUrlInApp: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  var starRating: Swift.Double? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var advertiser: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var mediaView: UIKit.UIView? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var imageURL: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var dspBranding: AdsFramework.DSPBranding? { get }
+  #endif
+  var overrideImpressionHandling: Swift.Bool { get set }
+  var overrideClickHandling: Swift.Bool { get set }
+  var hasReward: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  var reward: AdsFramework.NativeReward? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func registerAdView(_ adView: UIKit.UIView, clickableAssetViews: [Swift.String : UIKit.UIView?])
+  #endif
+  func recordNativeRewardClick()
+  func recordNativeRewardImpression()
 }
 public protocol MediationUnifiedAd : AdsFramework.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
