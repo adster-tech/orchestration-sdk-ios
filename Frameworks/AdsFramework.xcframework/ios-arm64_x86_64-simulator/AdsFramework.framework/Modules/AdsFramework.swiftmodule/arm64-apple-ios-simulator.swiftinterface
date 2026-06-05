@@ -337,6 +337,9 @@ public protocol MediationNativeAd : AdsFramework.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
   var mediaView: UIKit.UIView? { get }
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var aspectRatio: CoreFoundation.CGFloat? { get }
+  #endif
   var overrideImpressionHandling: Swift.Bool { get set }
   var overrideClickHandling: Swift.Bool { get set }
   #if compiler(>=5.3) && $NonescapableTypes
@@ -382,6 +385,9 @@ public protocol MediationNativeRewardAd : AdsFramework.Ad {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var dspBranding: AdsFramework.DSPBranding? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var aspectRatio: CoreFoundation.CGFloat? { get }
   #endif
   var overrideImpressionHandling: Swift.Bool { get set }
   var overrideClickHandling: Swift.Bool { get set }

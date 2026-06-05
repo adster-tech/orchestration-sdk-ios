@@ -11230,6 +11230,64 @@
           },
           {
             "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework17MediationNativeAdP11aspectRatio14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s12AdsFramework17MediationNativeAdP11aspectRatio12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework17MediationNativeAdP11aspectRatio14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s12AdsFramework17MediationNativeAdP11aspectRatio12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "overrideImpressionHandling",
             "printedName": "overrideImpressionHandling",
             "children": [
@@ -12335,6 +12393,64 @@
                 "declKind": "Accessor",
                 "usr": "s:12AdsFramework23MediationNativeRewardAdP11dspBrandingAA11DSPBrandingVSgvg",
                 "mangledName": "$s12AdsFramework23MediationNativeRewardAdP11dspBrandingAA11DSPBrandingVSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework23MediationNativeRewardAdP11aspectRatio14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s12AdsFramework23MediationNativeRewardAdP11aspectRatio12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework23MediationNativeRewardAdP11aspectRatio14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s12AdsFramework23MediationNativeRewardAdP11aspectRatio12CoreGraphics7CGFloatVSgvg",
                 "moduleName": "AdsFramework",
                 "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeRewardAd>",
                 "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeRewardAd>",
@@ -16751,14 +16867,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1185,
+      "offset": 1323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/admob\/AdMobNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1234,
+      "offset": 1372,
       "length": 5,
       "value": "false"
     },
@@ -17087,35 +17203,35 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1161,
+      "offset": 1372,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1209,
+      "offset": 1420,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "Array",
-      "offset": 1457,
+      "offset": 1668,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "Array",
-      "offset": 1509,
+      "offset": 1720,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1803,
       "length": 5,
       "value": "\"USD\""
     },
@@ -17143,42 +17259,42 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1079,
+      "offset": 1289,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1122,
+      "offset": 1332,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "Array",
-      "offset": 1363,
+      "offset": 1573,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "Array",
-      "offset": 1416,
+      "offset": 1626,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "StringLiteral",
-      "offset": 1499,
+      "offset": 1709,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1545,
+      "offset": 1755,
       "length": 5,
       "value": "false"
     },
@@ -17673,6 +17789,13 @@
       "value": "6"
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterCustomEventNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
       "offset": 4956,
@@ -17780,14 +17903,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1003,
+      "offset": 1141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/gam\/GAMNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1052,
+      "offset": 1190,
       "length": 5,
       "value": "false"
     },
