@@ -12,8 +12,11 @@ s.source            = {
 :git => 'https://github.com/adster-tech/orchestration-sdk-ios.git',
 :tag => "#{s.version}" }
 
+  # RazorpayAdsSdk is vendored here for CocoaPods; SPM consumers get it
+  # remotely from github.com/razorpayads/ios-sdk instead (see Package.swift).
   s.vendored_frameworks = [
     'Frameworks/AdsFramework.xcframework',
+    'Frameworks/RazorpayAdsSdk.xcframework',
   ]
 s.frameworks = 'AdSupport', 'AppTrackingTransparency', 'WebKit'
 end

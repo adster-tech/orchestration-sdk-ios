@@ -13,6 +13,13 @@ let package = Package(
             targets: ["Adster"]
         ),
     ],
+    dependencies: [
+        // Whitelabeled Razorpay Ads SDK — pulled from its own distribution repo.
+        .package(
+            url: "https://github.com/razorpayads/ios-sdk.git",
+            exact: "1.5.5"
+        ),
+    ],
     targets: [
         .binaryTarget(
             name: "AdsFramework",
@@ -21,7 +28,8 @@ let package = Package(
         .target(
             name: "Adster",
             dependencies: [
-                "AdsFramework"
+                "AdsFramework",
+                .product(name: "RazorpayAdsSdk", package: "ios-sdk")
             ],
             path: "Sources",
             linkerSettings: [
