@@ -17,7 +17,7 @@ let package = Package(
         // Whitelabeled Razorpay Ads SDK — pulled from its own distribution repo.
         .package(
             url: "https://github.com/razorpayads/ios-sdk.git",
-            exact: "1.5.5"
+            exact: "1.5.7"
         ),
     ],
     targets: [
