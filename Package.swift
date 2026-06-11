@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/AdsxGrowth/ios-sdk.git",
-            exact: "1.6.0"
+            exact: "1.6.1"
         ),
     ],
     targets: [

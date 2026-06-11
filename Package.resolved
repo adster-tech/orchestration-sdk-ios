@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AdsxGrowth/ios-sdk.git",
       "state" : {
-        "revision" : "910a080952230b69964ae2225af982bfda63211a",
-        "version" : "1.6.0"
+        "revision" : "de2374c3789bf0b2f4a503eb8717c4c2429673e7",
+        "version" : "1.6.1"
       }
     }
   ],
