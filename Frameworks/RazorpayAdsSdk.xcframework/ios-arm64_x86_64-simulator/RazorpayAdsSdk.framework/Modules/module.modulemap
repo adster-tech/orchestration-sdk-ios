@@ -1,6 +1,0 @@
-framework module RazorpayAdsSdk {
-  umbrella header "RazorpayAdsSdk.h"
-  export *
-
-  module * { export * }
-}

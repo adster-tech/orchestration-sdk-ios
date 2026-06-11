@@ -3,10 +3,10 @@
     {
       "identity" : "ios-sdk",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/razorpayads/ios-sdk.git",
+      "location" : "https://github.com/AdsxGrowth/ios-sdk.git",
       "state" : {
         "revision" : "910a080952230b69964ae2225af982bfda63211a",
-        "version" : "1.5.8"
+        "version" : "1.6.0"
       }
     }
   ],

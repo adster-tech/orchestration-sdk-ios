@@ -1,0 +1,6 @@
+framework module XGrowthAdsSdk {
+  umbrella header "XGrowthAdsSdk.h"
+  export *
+
+  module * { export * }
+}

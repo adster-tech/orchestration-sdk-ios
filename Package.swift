@@ -14,10 +14,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Whitelabeled Razorpay Ads SDK — pulled from its own distribution repo.
         .package(
-            url: "https://github.com/razorpayads/ios-sdk.git",
-            exact: "1.5.8"
+            url: "https://github.com/AdsxGrowth/ios-sdk.git",
+            exact: "1.6.0"
         ),
     ],
     targets: [
@@ -29,7 +28,7 @@ let package = Package(
             name: "Adster",
             dependencies: [
                 "AdsFramework",
-                .product(name: "RazorpayAdsSdk", package: "ios-sdk")
+                .product(name: "XGrowthAdsSdk", package: "ios-sdk")
             ],
             path: "Sources",
             linkerSettings: [
