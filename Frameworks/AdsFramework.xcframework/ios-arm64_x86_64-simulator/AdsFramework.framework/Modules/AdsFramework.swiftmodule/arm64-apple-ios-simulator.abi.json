@@ -16951,14 +16951,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 4673,
+      "offset": 4511,
       "length": 35,
       "value": "\"https:\/\/adreq.adster.tech\/v1\/rapi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 4748,
+      "offset": 4586,
       "length": 10,
       "value": "\"\/v1\/rapi\""
     },
@@ -17798,28 +17798,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4890,
+      "offset": 4554,
       "length": 14,
       "value": "\"placement_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4931,
+      "offset": 4595,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 4979,
+      "offset": 4643,
       "length": 29,
       "value": "\"yield_group_bid_price_range\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/customevent\/AdSterMediationCustomEvent.swift",
       "kind": "StringLiteral",
-      "offset": 5036,
+      "offset": 4700,
       "length": 11,
       "value": "\"parameter\""
     },
@@ -18862,42 +18862,42 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1829,
+      "offset": 1807,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Helper.swift",
       "kind": "Array",
-      "offset": 2199,
+      "offset": 2177,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2268,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 2297,
+      "offset": 2275,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 2307,
+      "offset": 2285,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 2361,
+      "offset": 2339,
       "length": 5,
       "value": "\" | \""
     }
