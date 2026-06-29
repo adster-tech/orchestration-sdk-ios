@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		omKjapXkNW50IrtL+OUlVRfzbh4=
+		zKNwlGnJ6BcB6amalzmVaFsgtxw=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KvYgz50nMLUbZxCCLO/IhTIEhgk=
+		6+qnQi0tIeAI97wMXj+QW8jjyCw=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KvYgz50nMLUbZxCCLO/IhTIEhgk=
+		6+qnQi0tIeAI97wMXj+QW8jjyCw=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aojfvb+5f9JQqfRVVE9dgrrib6lretkrSL/NZDWmpqc=
+			e9ZmyIU3eNmO8a58Ncy2lk96MEIo2y/UEm/KErSvk8Q=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -150,7 +150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aojfvb+5f9JQqfRVVE9dgrrib6lretkrSL/NZDWmpqc=
+			e9ZmyIU3eNmO8a58Ncy2lk96MEIo2y/UEm/KErSvk8Q=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
