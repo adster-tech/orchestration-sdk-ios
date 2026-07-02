@@ -198,11 +198,15 @@ public typealias AdSterInitializationCompletionHandler = ([AdsFramework.AdapterS
 }
 public struct AdRequestConfiguration {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : [Swift.String]] = [:], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil)
+  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : [Swift.String]] = [:], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil, collapsiblePlacement: Swift.String? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : Swift.String], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil)
+  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : Swift.String], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil, collapsiblePlacement: Swift.String? = nil)
   #endif
+}
+public enum CollapsiblePlacement {
+  public static let top: Swift.String
+  public static let bottom: Swift.String
 }
 public protocol MediationAdDelegate : AnyObject {
   func onBannerAdLoaded(bannerAd: any AdsFramework.MediationBannerAd)

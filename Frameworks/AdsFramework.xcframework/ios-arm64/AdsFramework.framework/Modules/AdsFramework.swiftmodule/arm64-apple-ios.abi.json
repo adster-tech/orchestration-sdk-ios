@@ -373,6 +373,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7104,7 +7121,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(placement:viewController:publisherProvidedId:customTargetingValues:adaptiveAdWidth:adaptiveAdHeight:adaptiveType:yieldGroupBidPriceRange:)",
+            "printedName": "init(placement:viewController:publisherProvidedId:customTargetingValues:adaptiveAdWidth:adaptiveAdHeight:adaptiveType:yieldGroupBidPriceRange:collapsiblePlacement:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7236,11 +7253,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRangeACSS_So06UIViewH0CSgSSSgSDySSSaySSGGSiSgAr2Otcfc",
-            "mangledName": "$s12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRangeACSS_So06UIViewH0CSgSSSgSDySSSaySSGGSiSgAr2Otcfc",
+            "usr": "s:12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRange20collapsiblePlacementACSS_So06UIViewH0CSgSSSgSDySSSaySSGGSiSgAs3Ptcfc",
+            "mangledName": "$s12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRange20collapsiblePlacementACSS_So06UIViewH0CSgSSSgSDySSSaySSGGSiSgAs3Ptcfc",
             "moduleName": "AdsFramework",
             "declAttributes": [
               "AccessControl"
@@ -7250,7 +7282,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(placement:viewController:publisherProvidedId:customTargetingValues:adaptiveAdWidth:adaptiveAdHeight:adaptiveType:yieldGroupBidPriceRange:)",
+            "printedName": "init(placement:viewController:publisherProvidedId:customTargetingValues:adaptiveAdWidth:adaptiveAdHeight:adaptiveType:yieldGroupBidPriceRange:collapsiblePlacement:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7373,11 +7405,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRangeACSS_So06UIViewH0CSgSSSgSDyS2SGSiSgAq2Otcfc",
-            "mangledName": "$s12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRangeACSS_So06UIViewH0CSgSSSgSDyS2SGSiSgAq2Otcfc",
+            "usr": "s:12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRange20collapsiblePlacementACSS_So06UIViewH0CSgSSSgSDyS2SGSiSgAr3Ptcfc",
+            "mangledName": "$s12AdsFramework22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveC5Width0oC6Height0O4Type23yieldGroupBidPriceRange20collapsiblePlacementACSS_So06UIViewH0CSgSSSgSDyS2SGSiSgAr3Ptcfc",
             "moduleName": "AdsFramework",
             "declAttributes": [
               "AccessControl"
@@ -7388,6 +7435,130 @@
         "declKind": "Struct",
         "usr": "s:12AdsFramework22AdRequestConfigurationV",
         "mangledName": "$s12AdsFramework22AdRequestConfigurationV",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CollapsiblePlacement",
+        "printedName": "CollapsiblePlacement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework20CollapsiblePlacementO3topSSvpZ",
+            "mangledName": "$s12AdsFramework20CollapsiblePlacementO3topSSvpZ",
+            "moduleName": "AdsFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework20CollapsiblePlacementO3topSSvgZ",
+                "mangledName": "$s12AdsFramework20CollapsiblePlacementO3topSSvgZ",
+                "moduleName": "AdsFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework20CollapsiblePlacementO6bottomSSvpZ",
+            "mangledName": "$s12AdsFramework20CollapsiblePlacementO6bottomSSvpZ",
+            "moduleName": "AdsFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework20CollapsiblePlacementO6bottomSSvgZ",
+                "mangledName": "$s12AdsFramework20CollapsiblePlacementO6bottomSSvgZ",
+                "moduleName": "AdsFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AdsFramework20CollapsiblePlacementO",
+        "mangledName": "$s12AdsFramework20CollapsiblePlacementO",
         "moduleName": "AdsFramework",
         "declAttributes": [
           "AccessControl"
@@ -7797,6 +7968,26 @@
         "moduleName": "AdsFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -16928,6 +17119,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 829,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterBannerAd.swift",
       "kind": "Array",
       "offset": 670,
@@ -18631,28 +18829,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5935,
+      "offset": 5979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6005,
+      "offset": 6049,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 6035,
+      "offset": 6079,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6075,
+      "offset": 6119,
       "length": 5,
       "value": "false"
     },
@@ -18687,9 +18885,23 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSter.swift",
       "kind": "Dictionary",
-      "offset": 2609,
+      "offset": 2643,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSter.swift",
+      "kind": "StringLiteral",
+      "offset": 4339,
+      "length": 5,
+      "value": "\"top\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSter.swift",
+      "kind": "StringLiteral",
+      "offset": 4376,
+      "length": 8,
+      "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/AdSterMediationManager.swift",
@@ -18732,6 +18944,27 @@
       "offset": 69305,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/BannerAdSizeUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 26,
+      "value": "\"CurrentOrientationInline\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/BannerAdSizeUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 8,
+      "value": "\"Inline\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/BannerAdSizeUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 10,
+      "value": "\"Anchored\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
