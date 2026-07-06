@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T0HFkCOOgQUJVOy0vzk++mzM/D4=
+		8PAFZJmlUid/LPJWrOLa+Xdsofk=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Z0HodxBONtW8v9xahFQ7RWoD1pI=
+		3b3znG+w1LnLlJUtGWbinJqc1LI=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		orthn2W9Iqs2OSrE9tRZ9bKoBeo=
+		U8Wo8bviSBwfVHz6khHSifBtWYM=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Z0HodxBONtW8v9xahFQ7RWoD1pI=
+		3b3znG+w1LnLlJUtGWbinJqc1LI=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1jGxBnO0lfKj5Qjh+5LHHJHiRbs=
+		aOp3vEi9RAcBv0vDfQnH3epwizc=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,19 +50,19 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eAkXkoZJVwk4I/cCJJAdpcWHx40=
+		Or7eh3MaGCYNoqGzTaMoQJNObmw=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WX2mt52CXcD+u0ZGowq2ox0Ccjc=
+		2Fgh3RwfX8jueqLB5F+VS4TNAHM=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eAkXkoZJVwk4I/cCJJAdpcWHx40=
+		Or7eh3MaGCYNoqGzTaMoQJNObmw=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oXxZdN3sJSlslpz/50f7aAa40mU=
+		OBTt/QLft46+XPdjfpiPpOTqsoo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>NativeView.nib</key>
 		<data>
-		8/YTdgtfzgbIzqKcBnBasIUGJwo=
+		Dc+BstMLuMXc53LkS5eqqbFCm44=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,28 +122,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CWY6l6VFezAIrys1YCszpYcoH/tJmfvLsSUZkhi2VJo=
+			+CfsO2JRNIn7H5qMC81++H6IpGfgNqeYgIcexH4dIHc=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8rsuTaxWNebAKApuuIQTxJbPiHQyPa+axcQw1zaacY=
+			/I+kHf95+vrEq66B0oJbIQJsppchOj5SIuoV38ZRXKk=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CWY6l6VFezAIrys1YCszpYcoH/tJmfvLsSUZkhi2VJo=
+			+CfsO2JRNIn7H5qMC81++H6IpGfgNqeYgIcexH4dIHc=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FDSOqmXvfb5XidZu4g6r7dY4cyJ5G4n4ib0eSEvfeic=
+			K/ZVmLpEt9PJg9zmnjwPi8VyK8mmK8x9IqAxYott77g=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/wukcs4QI/8LP7ijFRTSf5wz9gcmz1Cx4j6f2oBkRE=
+			T2zfpciH+e9RJXsrQ70HuUfkXEKxtx/oG/mSlqUkVZY=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dwg6Q+JaS1HseDH8OpSYrVh/+VFDVts9uXLMypF61To=
+			lX8Ky+8DFCC8x8DNqGwqq1tJflN6iray6RLxObcG+jo=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/wukcs4QI/8LP7ijFRTSf5wz9gcmz1Cx4j6f2oBkRE=
+			T2zfpciH+e9RJXsrQ70HuUfkXEKxtx/oG/mSlqUkVZY=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvYa1fTy4oaOVa+QdhiB+BEHLd3vqIWwpmmmKAymido=
+			pPyJ2wmvdoRV1GiaAW9MLbfIrBciWbeEOOWncDfJ0B4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M0XO7/5b/wrINMMH00n8uqQPPvIoPUT8uRa/H6n/xbw=
+			yuoW2nP70TvHy+fL1PlTgHjF+QP7m5YvHJyB4gBGtyQ=
 			</data>
 		</dict>
 	</dict>
