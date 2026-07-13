@@ -431,7 +431,11 @@ public protocol MediationNativeCustomFormatAd : AdsFramework.Ad {
   #endif
   func performClick(on assetName: Swift.String)
   func recordNativeImpression()
+  func trackViewability(_ view: UIKit.UIView)
   func destroy()
+}
+extension AdsFramework.MediationNativeCustomFormatAd {
+  public func trackViewability(_ view: UIKit.UIView)
 }
 public protocol MediationAppOpenAd : AdsFramework.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -505,6 +509,8 @@ public enum AdEventType : Swift.String {
   case AD_RESPONSE_ERROR
   case AD_CLICKED
   case AD_IMPRESSION
+  case AD_VIEWABLE_IMPRESSION
+  case AD_VIEWABLE_IMPRESSION_FAILURE
   case AD_CACHED
   case AD_CACHE_HIT
   case AD_CACHE_MISS
