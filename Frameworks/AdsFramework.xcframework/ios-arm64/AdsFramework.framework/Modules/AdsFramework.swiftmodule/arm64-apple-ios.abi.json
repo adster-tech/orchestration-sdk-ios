@@ -19022,7 +19022,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 10344,
+      "offset": 10473,
       "length": 2,
       "value": "59"
     },
@@ -19148,28 +19148,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5979,
+      "offset": 6014,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6049,
+      "offset": 6084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 6079,
+      "offset": 6114,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6119,
+      "offset": 6154,
       "length": 5,
       "value": "false"
     },
