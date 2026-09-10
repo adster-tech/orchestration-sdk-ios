@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uy8tWerzOEBdZHVZ1wGGOHPODxc=
+		dtm0RIZHUypaGYtPBthdSujRoNk=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LaQ4Q0ECoLfEIHxPgQlZG9sXD0I=
+		VzVq/hVTRBm9uugTXogCR61/ET8=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Qc4ug1/c1kJpgLteZA1sN/HF+ls=
+		5yUNukXpYJh4qEs5LscTWKWWIlY=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LaQ4Q0ECoLfEIHxPgQlZG9sXD0I=
+		VzVq/hVTRBm9uugTXogCR61/ET8=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yxx0qo4MGSOfBKZmQ/xti9lWnV8=
+		Eb246LDf+Xh4/R4CjtUj0SAPGnA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ZlJUQiOwTggqQsUnqTsvoBJsUX8Wvc7GYdlJWOmwQU=
+			W8NXAOD+fw1wzkkPK6JBhNusMPbOsH6668ljyQtEltM=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OgGg9dMst8L1CFdtHA4mabBg+xne4IzQ7QtEQBMifV8=
+			wZS8EOcMyR4dCr+A9n3u+PBBnIDlcVSQFXJ0sz/SECE=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ZlJUQiOwTggqQsUnqTsvoBJsUX8Wvc7GYdlJWOmwQU=
+			W8NXAOD+fw1wzkkPK6JBhNusMPbOsH6668ljyQtEltM=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TTYrj4D57JHc/P8jEkiYLWcSnAHB7Jc5rcpTVJvPnC4=
+			Wg3cesfAAp34pRBj74SzWrcVGMOxyAN65ZEnsIkCe/c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
