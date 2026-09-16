@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 s.name              = 'Adster'
-s.version           = '1.7.3'
+s.version           = '1.7.4'
 s.summary           = 'Adster Sdk provides you complete ads support for your iOS application'
 s.homepage          = 'https://adster.tech/'
 s.license      = "MIT"
 s.authors      = { "Adster" => "" }
-s.platform     = :ios, "15.0"
+s.platform     = :ios, "13.0"
 s.swift_version = "5.0"
 
 s.source            = {

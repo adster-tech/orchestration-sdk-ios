@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Adster",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -45,4 +45,3 @@ let package = Package(
         ),
     ]
 )
-
