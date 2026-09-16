@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aVwzHLm+ChXRDyjBxoAG6OmtRtQ=
+		C6HH03/4m0KvuSorOOC0QOmy4gk=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VzVq/hVTRBm9uugTXogCR61/ET8=
+		04GP7dGgpTjgm0s/+DCiuTHrGGI=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5yUNukXpYJh4qEs5LscTWKWWIlY=
+		sMCJxV0jVbk8rnQdr2Dgu41N10U=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VzVq/hVTRBm9uugTXogCR61/ET8=
+		04GP7dGgpTjgm0s/+DCiuTHrGGI=
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Eb246LDf+Xh4/R4CjtUj0SAPGnA=
+		OCK2SEmg4KpVmB1mbequbGJu9yI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8NXAOD+fw1wzkkPK6JBhNusMPbOsH6668ljyQtEltM=
+			BA6CsEzJvcmZSMxCv7+vp8y68FhmAcU+my4DfBqZqaI=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wZS8EOcMyR4dCr+A9n3u+PBBnIDlcVSQFXJ0sz/SECE=
+			SLCsL3q0KLEUubfDoETyuR/LLXdaDr9zDPW3yq4yD/A=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8NXAOD+fw1wzkkPK6JBhNusMPbOsH6668ljyQtEltM=
+			BA6CsEzJvcmZSMxCv7+vp8y68FhmAcU+my4DfBqZqaI=
 			</data>
 		</dict>
 		<key>Modules/AdsFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wg3cesfAAp34pRBj74SzWrcVGMOxyAN65ZEnsIkCe/c=
+			5is08MAPlUzAKh3GQNitovQnYpNpGSh5ZA1sxU96+Sg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
