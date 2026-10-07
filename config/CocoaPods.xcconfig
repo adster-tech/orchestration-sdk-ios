@@ -1,0 +1,3 @@
+// Xcode 27 rejects the iOS 12 targets generated for Google's dependency pods.
+// Apply this to the whole validation build, including dependency resource bundles.
+IPHONEOS_DEPLOYMENT_TARGET = 15.0

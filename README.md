@@ -246,3 +246,28 @@ extension MainViewController: MediationNativeAdEventDelegate {
 ## Conclusion
 
 The AdSter SDK offers a powerful and flexible way to integrate various ad types into your app. By initializing the SDK and conforming to the relevant protocols for each ad type, you can easily handle ad loading, presenting, and tracking events such as impressions and clicks.
+
+## Validating and publishing with Xcode 27
+
+Adster requires iOS 15. Google dependency pods currently generate some targets
+with an iOS 12 deployment target, which Xcode 27 rejects. Use the repository
+wrapper to apply `config/CocoaPods.xcconfig` to the complete validation build:
+
+```bash
+./scripts/cocoapods.sh lint
+```
+
+After committing the release podspec and framework artifacts, publish with:
+
+```bash
+./scripts/cocoapods.sh publish
+```
+
+The publish command validates locally, creates the version tag if absent, pushes
+that tag to `origin`, then runs `pod trunk push`. The tag must contain the current
+`Adster.podspec` and `Frameworks`; existing tags are never overwritten. CocoaPods
+requires the tag on GitHub before it can validate the podspec's source.
+
+The deployment-target override is limited to these commands. It does not change
+installed Google podspecs or globally alter Xcode settings. Running bare `pod lib
+lint` or `pod trunk push` bypasses the override.
