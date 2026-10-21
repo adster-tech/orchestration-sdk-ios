@@ -1173,6 +1173,24 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl",
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "AdsFramework",
         "declAttributes": [
           "RawDocComment"
@@ -19125,6 +19143,13 @@
       "offset": 10471,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/JavaScriptTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/Network.swift",
