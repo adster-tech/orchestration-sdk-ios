@@ -1,3 +1,27 @@
+## 1.8.0: Google SDK linking fix
+
+AdsFramework is now a static XCFramework. It contains no Google Mobile Ads or UMP
+implementation; CocoaPods/SPM supply one Google SDK to the host app. The dependency
+range remains `>= 13.2, < 14`, including 13.11.0. Both package managers require iOS 15.
+Remove any manually embedded older AdsFramework.framework before rebuilding.
+Do not manually embed the new static framework as a dynamic framework.
+
+CocoaPods copies nibs into `AdsterResources.bundle` and dependency privacy bundles
+into the app. Load CocoaPods nibs with:
+
+```swift
+let bundleURL = Bundle.main.url(forResource: "AdsterResources", withExtension: "bundle")!
+let nib = UINib(nibName: "NativeView", bundle: Bundle(url: bundleURL))
+```
+
+SPM users load packaged nibs with `Adster.resources` (import the `Adster` module),
+for example `UINib(nibName: "NativeView", bundle: Adster.resources)`.
+Existing AdsFramework APIs and GAM/AdMob functionality are retained.
+
+The build script prepares the local distribution; tagging and CocoaPods publication
+are separate release steps. See the source repository's build
+script for reproducible archives.
+
 
 # AdSter SDK Documentation
 

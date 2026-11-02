@@ -20630,7 +20630,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/Utility.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 903,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
@@ -20703,6 +20703,20 @@
       "offset": 2339,
       "length": 5,
       "value": "\" | \""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/SDKBuildInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 7,
+      "value": "\"1.8.0\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/SDKBuildInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 3,
+      "value": "\"1\""
     }
   ]
 }

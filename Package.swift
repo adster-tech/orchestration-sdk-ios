@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Adster",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -15,8 +15,7 @@ let package = Package(
     ],
     dependencies: [
         // AdsFramework.xcframework is built against Google Mobile Ads SDK
-        // 13.2.0. Declaring it here makes the GoogleMobileAds module available
-        // to consumers of the Adster library.
+        // 13.2.0 without bundling its implementation. The host links Google once.
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
             .upToNextMajor(from: "13.2.0")
@@ -36,7 +35,16 @@ let package = Package(
                     package: "swift-package-manager-google-mobile-ads"
                 )
             ],
-            path: "Sources",
+            path: "Sources/Adster",
+            resources: [
+                .process("Resources/AdsterBannerView.xib"),
+                .process("Resources/NativeBannerAdView.xib"),
+                .process("Resources/NativeFullScreenAdView.xib"),
+                .process("Resources/NativeView.xib"),
+                .copy("Resources/SDWebImage_SDWebImage.bundle"),
+                .copy("Resources/SDWebImage_SDWebImageMapKit.bundle"),
+                .copy("Resources/SwiftyJSON_SwiftyJSON.bundle")
+            ],
             linkerSettings: [
                 .linkedFramework("AdSupport"),
                 .linkedFramework("AppTrackingTransparency"),
