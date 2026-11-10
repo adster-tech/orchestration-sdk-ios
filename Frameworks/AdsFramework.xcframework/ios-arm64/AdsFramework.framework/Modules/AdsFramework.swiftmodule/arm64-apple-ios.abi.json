@@ -18649,35 +18649,35 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeCustomAd.swift",
       "kind": "Array",
-      "offset": 300,
+      "offset": 724,
       "length": 129,
       "value": "[\"Headline\", \"Body\", \"Calltoaction\", \"Image\", \"dest_url\", \"clickactionURL\"]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeCustomAd.swift",
       "kind": "Array",
-      "offset": 488,
+      "offset": 912,
       "length": 38,
       "value": "[\"image\", \"mainimage\", \"mainimageurl\"]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeCustomAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1097,
+      "offset": 1521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeCustomAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1200,
+      "offset": 1624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeCustomAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1318,
+      "offset": 1742,
       "length": 4,
       "value": "true"
     },
