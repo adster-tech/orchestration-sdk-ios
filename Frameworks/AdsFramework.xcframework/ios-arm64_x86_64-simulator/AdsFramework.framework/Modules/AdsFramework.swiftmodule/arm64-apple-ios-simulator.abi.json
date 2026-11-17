@@ -3103,6 +3103,29 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performClick",
+            "printedName": "performClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework21MediationNativeAdViewC12performClickyyF",
+            "mangledName": "$s12AdsFramework21MediationNativeAdViewC12performClickyyF",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4297,6 +4320,713 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isCompleted",
+            "printedName": "isCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP11isCompletedSbvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP11isCompletedSbvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP11isCompletedSbvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP11isCompletedSbvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBuffering",
+            "printedName": "isBuffering",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP11isBufferingSbvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP11isBufferingSbvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP11isBufferingSbvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP11isBufferingSbvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "durationMs",
+            "printedName": "durationMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP10durationMss5Int64Vvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP10durationMss5Int64Vvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP10durationMss5Int64Vvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP10durationMss5Int64Vvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentTimeMs",
+            "printedName": "currentTimeMs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP13currentTimeMss5Int64Vvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP13currentTimeMss5Int64Vvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP13currentTimeMss5Int64Vvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP13currentTimeMss5Int64Vvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoWidth",
+            "printedName": "videoWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP10videoWidthSivp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP10videoWidthSivp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP10videoWidthSivg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP10videoWidthSivg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoHeight",
+            "printedName": "videoHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP11videoHeightSivp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP11videoHeightSivp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP11videoHeightSivg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP11videoHeightSivg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP11aspectRatio14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP11aspectRatio12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP11aspectRatio14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP11aspectRatio12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customControlsEnabled",
+            "printedName": "customControlsEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvs",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvs",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvM",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP21customControlsEnabledSbvM",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "automaticVisibilityEnabled",
+            "printedName": "automaticVisibilityEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvs",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvs",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvM",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP26automaticVisibilityEnabledSbvM",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scaleMode",
+            "printedName": "scaleMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdSterVideoScaleMode",
+                "printedName": "AdsFramework.AdSterVideoScaleMode",
+                "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0Ovp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0Ovp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdSterVideoScaleMode",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode",
+                    "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0Ovg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0Ovg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdSterVideoScaleMode",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode",
+                    "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0Ovs",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0Ovs",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0OvM",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP9scaleModeAA0cde5ScaleH0OvM",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "listener",
+            "printedName": "listener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdsFramework.AdSterVideoListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdSterVideoListener",
+                    "printedName": "any AdsFramework.AdSterVideoListener",
+                    "usr": "s:12AdsFramework19AdSterVideoListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvp",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdsFramework.AdSterVideoListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdSterVideoListener",
+                        "printedName": "any AdsFramework.AdSterVideoListener",
+                        "usr": "s:12AdsFramework19AdSterVideoListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvg",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdsFramework.AdSterVideoListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdSterVideoListener",
+                        "printedName": "any AdsFramework.AdSterVideoListener",
+                        "usr": "s:12AdsFramework19AdSterVideoListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvs",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvs",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvM",
+                "mangledName": "$s12AdsFramework21AdSterVideoControllerP8listenerAA0cdE8Listener_pSgvM",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "play",
             "printedName": "play()",
@@ -4379,6 +5109,30 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "replay",
+            "printedName": "replay()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework21AdSterVideoControllerP6replayyyF",
+            "mangledName": "$s12AdsFramework21AdSterVideoControllerP6replayyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoController>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoController>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -4390,6 +5144,1173 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdSterVideoScaleMode",
+        "printedName": "AdSterVideoScaleMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "aspectFit",
+            "printedName": "aspectFit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.AdSterVideoScaleMode.Type) -> AdsFramework.AdSterVideoScaleMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdSterVideoScaleMode",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode",
+                    "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdSterVideoScaleMode",
+                        "printedName": "AdsFramework.AdSterVideoScaleMode",
+                        "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework20AdSterVideoScaleModeO9aspectFityA2CmF",
+            "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO9aspectFityA2CmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "aspectFill",
+            "printedName": "aspectFill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.AdSterVideoScaleMode.Type) -> AdsFramework.AdSterVideoScaleMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdSterVideoScaleMode",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode",
+                    "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdSterVideoScaleMode",
+                        "printedName": "AdsFramework.AdSterVideoScaleMode",
+                        "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework20AdSterVideoScaleModeO10aspectFillyA2CmF",
+            "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO10aspectFillyA2CmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "fill",
+            "printedName": "fill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.AdSterVideoScaleMode.Type) -> AdsFramework.AdSterVideoScaleMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdSterVideoScaleMode",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode",
+                    "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.AdSterVideoScaleMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdSterVideoScaleMode",
+                        "printedName": "AdsFramework.AdSterVideoScaleMode",
+                        "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework20AdSterVideoScaleModeO4fillyA2CmF",
+            "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO4fillyA2CmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdSterVideoScaleMode",
+                "printedName": "AdsFramework.AdSterVideoScaleMode",
+                "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdSterVideoScaleMode",
+                "printedName": "AdsFramework.AdSterVideoScaleMode",
+                "usr": "s:12AdsFramework20AdSterVideoScaleModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework20AdSterVideoScaleModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AdsFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework20AdSterVideoScaleModeO9hashValueSivp",
+            "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO9hashValueSivp",
+            "moduleName": "AdsFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework20AdSterVideoScaleModeO9hashValueSivg",
+                "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO9hashValueSivg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework20AdSterVideoScaleModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AdsFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AdsFramework20AdSterVideoScaleModeO",
+        "mangledName": "$s12AdsFramework20AdSterVideoScaleModeO",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdSterVideoError",
+        "printedName": "AdSterVideoError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework16AdSterVideoErrorV7messageSSvp",
+            "mangledName": "$s12AdsFramework16AdSterVideoErrorV7messageSSvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework16AdSterVideoErrorV7messageSSvg",
+                "mangledName": "$s12AdsFramework16AdSterVideoErrorV7messageSSvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework16AdSterVideoErrorV4codeSiSgvp",
+            "mangledName": "$s12AdsFramework16AdSterVideoErrorV4codeSiSgvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework16AdSterVideoErrorV4codeSiSgvg",
+                "mangledName": "$s12AdsFramework16AdSterVideoErrorV4codeSiSgvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdSterVideoError",
+                "printedName": "AdsFramework.AdSterVideoError",
+                "usr": "s:12AdsFramework16AdSterVideoErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AdsFramework16AdSterVideoErrorV7message4codeACSS_SiSgtcfc",
+            "mangledName": "$s12AdsFramework16AdSterVideoErrorV7message4codeACSS_SiSgtcfc",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12AdsFramework16AdSterVideoErrorV",
+        "mangledName": "$s12AdsFramework16AdSterVideoErrorV",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdSterVideoListener",
+        "printedName": "AdSterVideoListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onReady",
+            "printedName": "onReady(durationMs:width:height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP7onReady10durationMs5width6heightys5Int64V_S2itF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP7onReady10durationMs5width6heightys5Int64V_S2itF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onStarted",
+            "printedName": "onStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP9onStartedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP9onStartedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaused",
+            "printedName": "onPaused()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP8onPausedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP8onPausedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResumed",
+            "printedName": "onResumed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP9onResumedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP9onResumedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompleted",
+            "printedName": "onCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP11onCompletedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP11onCompletedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSkipped",
+            "printedName": "onSkipped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP9onSkippedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP9onSkippedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailed",
+            "printedName": "onFailed(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdSterVideoError",
+                "printedName": "AdsFramework.AdSterVideoError",
+                "usr": "s:12AdsFramework16AdSterVideoErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP8onFailed5erroryAA0cdE5ErrorV_tF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP8onFailed5erroryAA0cdE5ErrorV_tF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBufferingStarted",
+            "printedName": "onBufferingStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP18onBufferingStartedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP18onBufferingStartedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBufferingFinished",
+            "printedName": "onBufferingFinished()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP19onBufferingFinishedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP19onBufferingFinishedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMuted",
+            "printedName": "onMuted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP7onMutedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP7onMutedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onUnmuted",
+            "printedName": "onUnmuted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP9onUnmutedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP9onUnmutedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFirstQuartile",
+            "printedName": "onFirstQuartile()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP15onFirstQuartileyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP15onFirstQuartileyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMidpoint",
+            "printedName": "onMidpoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP10onMidpointyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP10onMidpointyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onThirdQuartile",
+            "printedName": "onThirdQuartile()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP15onThirdQuartileyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP15onThirdQuartileyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onProgress",
+            "printedName": "onProgress(currentTimeMs:durationMs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerP10onProgress13currentTimeMs08durationK0ys5Int64V_AHtF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerP10onProgress13currentTimeMs08durationK0ys5Int64V_AHtF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onReady",
+            "printedName": "onReady(durationMs:width:height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE7onReady10durationMs5width6heightys5Int64V_S2itF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE7onReady10durationMs5width6heightys5Int64V_S2itF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onStarted",
+            "printedName": "onStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE9onStartedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE9onStartedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaused",
+            "printedName": "onPaused()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE8onPausedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE8onPausedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResumed",
+            "printedName": "onResumed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE9onResumedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE9onResumedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompleted",
+            "printedName": "onCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE11onCompletedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE11onCompletedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSkipped",
+            "printedName": "onSkipped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE9onSkippedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE9onSkippedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailed",
+            "printedName": "onFailed(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdSterVideoError",
+                "printedName": "AdsFramework.AdSterVideoError",
+                "usr": "s:12AdsFramework16AdSterVideoErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE8onFailed5erroryAA0cdE5ErrorV_tF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE8onFailed5erroryAA0cdE5ErrorV_tF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBufferingStarted",
+            "printedName": "onBufferingStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE18onBufferingStartedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE18onBufferingStartedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBufferingFinished",
+            "printedName": "onBufferingFinished()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE19onBufferingFinishedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE19onBufferingFinishedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMuted",
+            "printedName": "onMuted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE7onMutedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE7onMutedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onUnmuted",
+            "printedName": "onUnmuted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE9onUnmutedyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE9onUnmutedyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFirstQuartile",
+            "printedName": "onFirstQuartile()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE15onFirstQuartileyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE15onFirstQuartileyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMidpoint",
+            "printedName": "onMidpoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE10onMidpointyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE10onMidpointyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onThirdQuartile",
+            "printedName": "onThirdQuartile()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE15onThirdQuartileyyF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE15onThirdQuartileyyF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onProgress",
+            "printedName": "onProgress(currentTimeMs:durationMs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework19AdSterVideoListenerPAAE10onProgress13currentTimeMs08durationK0ys5Int64V_AHtF",
+            "mangledName": "$s12AdsFramework19AdSterVideoListenerPAAE10onProgress13currentTimeMs08durationK0ys5Int64V_AHtF",
+            "moduleName": "AdsFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.AdSterVideoListener>",
+            "sugared_genericSig": "<Self where Self : AdsFramework.AdSterVideoListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12AdsFramework19AdSterVideoListenerP",
+        "mangledName": "$s12AdsFramework19AdSterVideoListenerP",
+        "moduleName": "AdsFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -9107,6 +11028,80 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "rawPayload",
+            "printedName": "rawPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardValue",
+                    "printedName": "AdsFramework.NativeRewardValue",
+                    "usr": "s:12AdsFramework17NativeRewardValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework12NativeRewardV10rawPayloadSDySSAA0cD5ValueOGvp",
+            "mangledName": "$s12AdsFramework12NativeRewardV10rawPayloadSDySSAA0cD5ValueOGvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework12NativeRewardV10rawPayloadSDySSAA0cD5ValueOGvg",
+                "mangledName": "$s12AdsFramework12NativeRewardV10rawPayloadSDySSAA0cD5ValueOGvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -9128,7 +11123,9 @@
             "usr": "s:12AdsFramework12NativeRewardV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s12AdsFramework12NativeRewardV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AdsFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -9153,7 +11150,9 @@
             "usr": "s:12AdsFramework12NativeRewardV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s12AdsFramework12NativeRewardV6encode2toys7Encoder_p_tKF",
             "moduleName": "AdsFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -9448,6 +11447,80 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "rawPayload",
+            "printedName": "rawPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardValue",
+                    "printedName": "AdsFramework.NativeRewardValue",
+                    "usr": "s:12AdsFramework17NativeRewardValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework18NativeRewardCouponV10rawPayloadSDySSAA0cD5ValueOGvp",
+            "mangledName": "$s12AdsFramework18NativeRewardCouponV10rawPayloadSDySSAA0cD5ValueOGvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework18NativeRewardCouponV10rawPayloadSDySSAA0cD5ValueOGvg",
+                "mangledName": "$s12AdsFramework18NativeRewardCouponV10rawPayloadSDySSAA0cD5ValueOGvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -9469,7 +11542,9 @@
             "usr": "s:12AdsFramework18NativeRewardCouponV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s12AdsFramework18NativeRewardCouponV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AdsFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -9494,7 +11569,9 @@
             "usr": "s:12AdsFramework18NativeRewardCouponV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s12AdsFramework18NativeRewardCouponV6encode2toys7Encoder_p_tKF",
             "moduleName": "AdsFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -9714,6 +11791,80 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "rawPayload",
+            "printedName": "rawPayload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardValue",
+                    "printedName": "AdsFramework.NativeRewardValue",
+                    "usr": "s:12AdsFramework17NativeRewardValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework17NativeRewardBrandV10rawPayloadSDySSAA0cD5ValueOGvp",
+            "mangledName": "$s12AdsFramework17NativeRewardBrandV10rawPayloadSDySSAA0cD5ValueOGvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework17NativeRewardBrandV10rawPayloadSDySSAA0cD5ValueOGvg",
+                "mangledName": "$s12AdsFramework17NativeRewardBrandV10rawPayloadSDySSAA0cD5ValueOGvg",
+                "moduleName": "AdsFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -9735,7 +11886,9 @@
             "usr": "s:12AdsFramework17NativeRewardBrandV4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s12AdsFramework17NativeRewardBrandV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AdsFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -9760,7 +11913,9 @@
             "usr": "s:12AdsFramework17NativeRewardBrandV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s12AdsFramework17NativeRewardBrandV6encode2toys7Encoder_p_tKF",
             "moduleName": "AdsFramework",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -12948,6 +15103,64 @@
           },
           {
             "kind": "Var",
+            "name": "brand",
+            "printedName": "brand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework23MediationNativeRewardAdP5brandSSSgvp",
+            "mangledName": "$s12AdsFramework23MediationNativeRewardAdP5brandSSSgvp",
+            "moduleName": "AdsFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework23MediationNativeRewardAdP5brandSSSgvg",
+                "mangledName": "$s12AdsFramework23MediationNativeRewardAdP5brandSSSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "advertiser",
             "printedName": "advertiser",
             "children": [
@@ -13614,6 +15827,66 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "brand",
+            "printedName": "brand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AdsFramework23MediationNativeRewardAdPAAE5brandSSSgvp",
+            "mangledName": "$s12AdsFramework23MediationNativeRewardAdPAAE5brandSSSgvp",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AdsFramework23MediationNativeRewardAdPAAE5brandSSSgvg",
+                "mangledName": "$s12AdsFramework23MediationNativeRewardAdPAAE5brandSSSgvg",
+                "moduleName": "AdsFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : AdsFramework.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : AdsFramework.MediationNativeRewardAd>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Protocol",
@@ -15149,6 +17422,462 @@
             "printedName": "Ad",
             "usr": "s:12AdsFramework2AdP",
             "mangledName": "$s12AdsFramework2AdP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeRewardValue",
+        "printedName": "NativeRewardValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.NativeRewardValue.Type) -> (Swift.String) -> AdsFramework.NativeRewardValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AdsFramework.NativeRewardValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.NativeRewardValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework17NativeRewardValueO6stringyACSScACmF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO6stringyACSScACmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.NativeRewardValue.Type) -> (Foundation.Decimal) -> AdsFramework.NativeRewardValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Decimal) -> AdsFramework.NativeRewardValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decimal",
+                        "printedName": "Foundation.Decimal",
+                        "usr": "c:@SA@NSDecimal"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.NativeRewardValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework17NativeRewardValueO6numberyACSo9NSDecimalacACmF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO6numberyACSo9NSDecimalacACmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.NativeRewardValue.Type) -> (Swift.Bool) -> AdsFramework.NativeRewardValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> AdsFramework.NativeRewardValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.NativeRewardValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework17NativeRewardValueO4boolyACSbcACmF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO4boolyACSbcACmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "object",
+            "printedName": "object",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.NativeRewardValue.Type) -> ([Swift.String : AdsFramework.NativeRewardValue]) -> AdsFramework.NativeRewardValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : AdsFramework.NativeRewardValue]) -> AdsFramework.NativeRewardValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : AdsFramework.NativeRewardValue]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NativeRewardValue",
+                            "printedName": "AdsFramework.NativeRewardValue",
+                            "usr": "s:12AdsFramework17NativeRewardValueO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.NativeRewardValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework17NativeRewardValueO6objectyACSDySSACGcACmF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO6objectyACSDySSACGcACmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.NativeRewardValue.Type) -> ([AdsFramework.NativeRewardValue]) -> AdsFramework.NativeRewardValue",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([AdsFramework.NativeRewardValue]) -> AdsFramework.NativeRewardValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AdsFramework.NativeRewardValue]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NativeRewardValue",
+                            "printedName": "AdsFramework.NativeRewardValue",
+                            "usr": "s:12AdsFramework17NativeRewardValueO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.NativeRewardValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework17NativeRewardValueO5arrayyACSayACGcACmF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO5arrayyACSayACGcACmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "null",
+            "printedName": "null",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsFramework.NativeRewardValue.Type) -> AdsFramework.NativeRewardValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardValue",
+                    "printedName": "AdsFramework.NativeRewardValue",
+                    "usr": "s:12AdsFramework17NativeRewardValueO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsFramework.NativeRewardValue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardValue",
+                        "printedName": "AdsFramework.NativeRewardValue",
+                        "usr": "s:12AdsFramework17NativeRewardValueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AdsFramework17NativeRewardValueO4nullyA2CmF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO4nullyA2CmF",
+            "moduleName": "AdsFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardValue",
+                "printedName": "AdsFramework.NativeRewardValue",
+                "usr": "s:12AdsFramework17NativeRewardValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AdsFramework17NativeRewardValueO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework17NativeRewardValueO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO6encode2toys7Encoder_p_tKF",
+            "moduleName": "AdsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardValue",
+                "printedName": "AdsFramework.NativeRewardValue",
+                "usr": "s:12AdsFramework17NativeRewardValueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardValue",
+                "printedName": "AdsFramework.NativeRewardValue",
+                "usr": "s:12AdsFramework17NativeRewardValueO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AdsFramework17NativeRewardValueO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12AdsFramework17NativeRewardValueO2eeoiySbAC_ACtFZ",
+            "moduleName": "AdsFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AdsFramework17NativeRewardValueO",
+        "mangledName": "$s12AdsFramework17NativeRewardValueO",
+        "moduleName": "AdsFramework",
+        "declAttributes": [
+          "Indirect",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -18474,14 +21203,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterCarouselAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 4910,
+      "offset": 4909,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterCarouselAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 6938,
+      "offset": 6923,
       "length": 5,
       "value": "false"
     },
@@ -18593,56 +21322,56 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1532,
+      "offset": 1601,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1580,
+      "offset": 1649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "Array",
-      "offset": 1828,
+      "offset": 1897,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "Array",
-      "offset": 1880,
+      "offset": 1949,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "Array",
-      "offset": 1927,
+      "offset": 1996,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2079,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2113,
+      "offset": 2182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2548,
+      "offset": 2617,
       "length": 4,
       "value": "true"
     },
@@ -18684,56 +21413,56 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1318,
+      "offset": 1410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1361,
+      "offset": 1453,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "Array",
-      "offset": 1602,
+      "offset": 1694,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "Array",
-      "offset": 1655,
+      "offset": 1747,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "Array",
-      "offset": 1702,
+      "offset": 1794,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "StringLiteral",
-      "offset": 1785,
+      "offset": 1877,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1831,
+      "offset": 1923,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/adster\/AdSterNativeRewardAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1934,
+      "offset": 2026,
       "length": 5,
       "value": "false"
     },
@@ -19503,287 +22232,287 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1377,
+      "offset": 1428,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1411,
+      "offset": 1462,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1453,
+      "offset": 1504,
       "length": 18,
       "value": "\"ad_render_config\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1495,
+      "offset": 1546,
       "length": 10,
       "value": "\"dest_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1600,
       "length": 12,
       "value": "\"media_type\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1587,
+      "offset": 1638,
       "length": 12,
       "value": "\"poster_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1681,
       "length": 17,
       "value": "\"skippable_video\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1676,
+      "offset": 1727,
       "length": 15,
       "value": "\"skip_duration\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1717,
+      "offset": 1768,
       "length": 12,
       "value": "\"main_image\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1840,
       "length": 10,
       "value": "\"vast_tag\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 1896,
       "length": 14,
       "value": "\"dsp_branding\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 1961,
       "length": 17,
       "value": "\"open_url_in_app\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1956,
+      "offset": 2007,
       "length": 15,
       "value": "\"custom_native\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 1997,
+      "offset": 2048,
       "length": 12,
       "value": "\"has_reward\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 4565,
+      "offset": 4779,
       "length": 15,
       "value": "\"custom_fields\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6605,
+      "offset": 7217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6622,
+      "offset": 7234,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 6965,
+      "offset": 7577,
       "length": 5,
       "value": "\"imp\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 7001,
+      "offset": 7613,
       "length": 9,
       "value": "\"viewimp\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "Array",
-      "offset": 7776,
+      "offset": 8388,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "Array",
-      "offset": 7803,
+      "offset": 8415,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "Array",
-      "offset": 7824,
+      "offset": 8436,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 9042,
+      "offset": 9654,
       "length": 11,
       "value": "\"ui_config\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 9077,
+      "offset": 9689,
       "length": 10,
       "value": "\"end_card\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 9609,
+      "offset": 10221,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 9635,
+      "offset": 10247,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 10087,
+      "offset": 10699,
       "length": 19,
       "value": "\"show_close_button\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 10139,
+      "offset": 10751,
       "length": 20,
       "value": "\"close_button_delay\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 10189,
+      "offset": 10801,
       "length": 16,
       "value": "\"show_countdown\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 10237,
+      "offset": 10849,
       "length": 18,
       "value": "\"force_fullscreen\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10815,
+      "offset": 11427,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10845,
+      "offset": 11457,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10870,
+      "offset": 11482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10901,
+      "offset": 11513,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11403,
+      "offset": 12015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 11764,
+      "offset": 12376,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 11852,
+      "offset": 12464,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 11871,
+      "offset": 12483,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 11894,
+      "offset": 12506,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 11917,
+      "offset": 12529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/network\/AdSterModel.swift",
       "kind": "StringLiteral",
-      "offset": 11939,
+      "offset": 12551,
       "length": 2,
       "value": "\"\""
     },
@@ -20230,99 +22959,204 @@
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
-      "kind": "Array",
-      "offset": 551,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
-      "kind": "Array",
-      "offset": 606,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 762,
+      "offset": 467,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 795,
+      "offset": 518,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 688,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 755,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "Array",
+      "offset": 3878,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "Array",
+      "offset": 3933,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4089,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4122,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15278,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15416,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15420,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15485,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15656,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/AdSterMediaView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15715,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 8130,
+      "offset": 8496,
       "length": 10,
       "value": "\"headline\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 8163,
+      "offset": 8529,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 8191,
+      "offset": 8557,
       "length": 5,
       "value": "\"cta\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 8219,
+      "offset": 8585,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 8253,
+      "offset": 8619,
       "length": 11,
       "value": "\"mediaView\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/NativeVideoState.swift",
       "kind": "BooleanLiteral",
-      "offset": 439,
+      "offset": 2448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/NativeVideoState.swift",
       "kind": "BooleanLiteral",
-      "offset": 473,
+      "offset": 2482,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/NativeVideoState.swift",
       "kind": "BooleanLiteral",
-      "offset": 507,
+      "offset": 2516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/NativeVideoState.swift",
       "kind": "BooleanLiteral",
-      "offset": 543,
+      "offset": 2552,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/view\/NativeVideoState.swift",
       "kind": "BooleanLiteral",
-      "offset": 582,
+      "offset": 2591,
       "length": 5,
       "value": "false"
     },
@@ -20545,31 +23379,52 @@
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
+      "kind": "Dictionary",
+      "offset": 1354,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 3092,
       "length": 12,
       "value": "\"expires_at\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
       "kind": "StringLiteral",
-      "offset": 1460,
+      "offset": 3134,
       "length": 16,
       "value": "\"redemption_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
+      "kind": "Dictionary",
+      "offset": 3529,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
       "kind": "StringLiteral",
-      "offset": 1870,
+      "offset": 4765,
       "length": 14,
       "value": "\"display_name\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
       "kind": "StringLiteral",
-      "offset": 1908,
+      "offset": 4803,
       "length": 10,
       "value": "\"logo_url\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/MediationAd.swift",
+      "kind": "Dictionary",
+      "offset": 5135,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/ios-sdk\/AdsFramework\/AdsFramework\/AdsterSDK\/mediation\/TargetingEvaluator.swift",
